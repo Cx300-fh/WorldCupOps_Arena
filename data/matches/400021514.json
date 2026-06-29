@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021514",
+    "ifesId": "151684",
+    "syncedAt": "2026-06-29T13:05:31.229Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021514",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-06-30T17:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43854",
+      "name": "Côte d'Ivoire",
+      "code": "CIV",
+      "country": "CIV",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43961",
+      "name": "Norway",
+      "code": "NOR",
+      "country": "NOR",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151684"
+  }
+}

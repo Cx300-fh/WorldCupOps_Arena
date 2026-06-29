@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021527",
+    "ifesId": "151689",
+    "syncedAt": "2026-06-29T13:05:26.593Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021527",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-03T03:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43971",
+      "name": "Switzerland",
+      "code": "SUI",
+      "country": "SUI",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43843",
+      "name": "Algeria",
+      "code": "ALG",
+      "country": "ALG",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151689"
+  }
+}

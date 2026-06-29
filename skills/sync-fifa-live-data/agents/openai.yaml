@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync FIFA Live Data"
+  short_description: "Sync FIFA match and player data with cache fallback"
+  default_prompt: "Use $sync-fifa-live-data to sync FIFA World Cup match, lineup, and player statistics into a local JSON cache."

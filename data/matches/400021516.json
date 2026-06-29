@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021516",
+    "ifesId": "151681",
+    "syncedAt": "2026-06-29T13:05:52.831Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021516",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-06-29T17:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43924",
+      "name": "Brazil",
+      "code": "BRA",
+      "country": "BRA",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43819",
+      "name": "Japan",
+      "code": "JPN",
+      "country": "JPN",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151681"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021515",
+    "ifesId": "151692",
+    "syncedAt": "2026-06-29T13:05:27.112Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021515",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-03T18:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43976",
+      "name": "Australia",
+      "code": "AUS",
+      "country": "AUS",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43855",
+      "name": "Egypt",
+      "code": "EGY",
+      "country": "EGY",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151692"
+  }
+}

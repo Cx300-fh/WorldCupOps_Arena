@@ -1,0 +1,4829 @@
+{
+  "meta": {
+    "seasonId": "285023",
+    "competitionId": "17",
+    "syncedAt": "2026-06-29T14:39:38.370Z",
+    "source": "FIFA official public JSON",
+    "sourceUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
+    "matchCount": 104,
+    "groupCount": 12,
+    "teamCount": 48,
+    "completedCount": 73,
+    "liveCount": 0,
+    "scheduledCount": 31
+  },
+  "teams": [
+    {
+      "id": "43843",
+      "name": "Algeria",
+      "code": "ALG",
+      "country": "ALG"
+    },
+    {
+      "id": "43922",
+      "name": "Argentina",
+      "code": "ARG",
+      "country": "ARG"
+    },
+    {
+      "id": "43976",
+      "name": "Australia",
+      "code": "AUS",
+      "country": "AUS"
+    },
+    {
+      "id": "43934",
+      "name": "Austria",
+      "code": "AUT",
+      "country": "AUT"
+    },
+    {
+      "id": "43935",
+      "name": "Belgium",
+      "code": "BEL",
+      "country": "BEL"
+    },
+    {
+      "id": "44037",
+      "name": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "country": "BIH"
+    },
+    {
+      "id": "43924",
+      "name": "Brazil",
+      "code": "BRA",
+      "country": "BRA"
+    },
+    {
+      "id": "43850",
+      "name": "Cabo Verde",
+      "code": "CPV",
+      "country": "CPV"
+    },
+    {
+      "id": "43899",
+      "name": "Canada",
+      "code": "CAN",
+      "country": "CAN"
+    },
+    {
+      "id": "43926",
+      "name": "Colombia",
+      "code": "COL",
+      "country": "COL"
+    },
+    {
+      "id": "20014",
+      "name": "Congo DR",
+      "code": "COD",
+      "country": "COD"
+    },
+    {
+      "id": "43854",
+      "name": "Côte d'Ivoire",
+      "code": "CIV",
+      "country": "CIV"
+    },
+    {
+      "id": "43938",
+      "name": "Croatia",
+      "code": "CRO",
+      "country": "CRO"
+    },
+    {
+      "id": "1895293",
+      "name": "Curaçao",
+      "code": "CUW",
+      "country": "CUW"
+    },
+    {
+      "id": "43995",
+      "name": "Czechia",
+      "code": "CZE",
+      "country": "CZE"
+    },
+    {
+      "id": "43927",
+      "name": "Ecuador",
+      "code": "ECU",
+      "country": "ECU"
+    },
+    {
+      "id": "43855",
+      "name": "Egypt",
+      "code": "EGY",
+      "country": "EGY"
+    },
+    {
+      "id": "43942",
+      "name": "England",
+      "code": "ENG",
+      "country": "ENG"
+    },
+    {
+      "id": "43946",
+      "name": "France",
+      "code": "FRA",
+      "country": "FRA"
+    },
+    {
+      "id": "43948",
+      "name": "Germany",
+      "code": "GER",
+      "country": "GER"
+    },
+    {
+      "id": "43860",
+      "name": "Ghana",
+      "code": "GHA",
+      "country": "GHA"
+    },
+    {
+      "id": "43908",
+      "name": "Haiti",
+      "code": "HAI",
+      "country": "HAI"
+    },
+    {
+      "id": "43817",
+      "name": "IR Iran",
+      "code": "IRN",
+      "country": "IRN"
+    },
+    {
+      "id": "43818",
+      "name": "Iraq",
+      "code": "IRQ",
+      "country": "IRQ"
+    },
+    {
+      "id": "43819",
+      "name": "Japan",
+      "code": "JPN",
+      "country": "JPN"
+    },
+    {
+      "id": "43820",
+      "name": "Jordan",
+      "code": "JOR",
+      "country": "JOR"
+    },
+    {
+      "id": "43822",
+      "name": "Korea Republic",
+      "code": "KOR",
+      "country": "KOR"
+    },
+    {
+      "id": "43911",
+      "name": "Mexico",
+      "code": "MEX",
+      "country": "MEX"
+    },
+    {
+      "id": "43872",
+      "name": "Morocco",
+      "code": "MAR",
+      "country": "MAR"
+    },
+    {
+      "id": "43960",
+      "name": "Netherlands",
+      "code": "NED",
+      "country": "NED"
+    },
+    {
+      "id": "43978",
+      "name": "New Zealand",
+      "code": "NZL",
+      "country": "NZL"
+    },
+    {
+      "id": "43961",
+      "name": "Norway",
+      "code": "NOR",
+      "country": "NOR"
+    },
+    {
+      "id": "43914",
+      "name": "Panama",
+      "code": "PAN",
+      "country": "PAN"
+    },
+    {
+      "id": "43928",
+      "name": "Paraguay",
+      "code": "PAR",
+      "country": "PAR"
+    },
+    {
+      "id": "43963",
+      "name": "Portugal",
+      "code": "POR",
+      "country": "POR"
+    },
+    {
+      "id": "43834",
+      "name": "Qatar",
+      "code": "QAT",
+      "country": "QAT"
+    },
+    {
+      "id": "43835",
+      "name": "Saudi Arabia",
+      "code": "KSA",
+      "country": "KSA"
+    },
+    {
+      "id": "43967",
+      "name": "Scotland",
+      "code": "SCO",
+      "country": "SCO"
+    },
+    {
+      "id": "43879",
+      "name": "Senegal",
+      "code": "SEN",
+      "country": "SEN"
+    },
+    {
+      "id": "43883",
+      "name": "South Africa",
+      "code": "RSA",
+      "country": "RSA"
+    },
+    {
+      "id": "43969",
+      "name": "Spain",
+      "code": "ESP",
+      "country": "ESP"
+    },
+    {
+      "id": "43970",
+      "name": "Sweden",
+      "code": "SWE",
+      "country": "SWE"
+    },
+    {
+      "id": "43971",
+      "name": "Switzerland",
+      "code": "SUI",
+      "country": "SUI"
+    },
+    {
+      "id": "43888",
+      "name": "Tunisia",
+      "code": "TUN",
+      "country": "TUN"
+    },
+    {
+      "id": "43972",
+      "name": "Türkiye",
+      "code": "TUR",
+      "country": "TUR"
+    },
+    {
+      "id": "43930",
+      "name": "Uruguay",
+      "code": "URU",
+      "country": "URU"
+    },
+    {
+      "id": "43921",
+      "name": "USA",
+      "code": "USA",
+      "country": "USA"
+    },
+    {
+      "id": "44005",
+      "name": "Uzbekistan",
+      "code": "UZB",
+      "country": "UZB"
+    }
+  ],
+  "groups": [
+    {
+      "id": "289275",
+      "name": "Group A",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43911",
+            "name": "Mexico",
+            "code": "MEX",
+            "country": "MEX"
+          },
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 0,
+          "goalDifference": 6,
+          "points": 9,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43883",
+            "name": "South Africa",
+            "code": "RSA",
+            "country": "RSA"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43822",
+            "name": "Korea Republic",
+            "code": "KOR",
+            "country": "KOR"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1,
+          "points": 3,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43995",
+            "name": "Czechia",
+            "code": "CZE",
+            "country": "CZE"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 6,
+          "goalDifference": -4,
+          "points": 1,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289276",
+      "name": "Group B",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43971",
+            "name": "Switzerland",
+            "code": "SUI",
+            "country": "SUI"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43899",
+            "name": "Canada",
+            "code": "CAN",
+            "country": "CAN"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "44037",
+            "name": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "country": "BIH"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43834",
+            "name": "Qatar",
+            "code": "QAT",
+            "country": "QAT"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8,
+          "points": 1,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289277",
+      "name": "Group C",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43924",
+            "name": "Brazil",
+            "code": "BRA",
+            "country": "BRA"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43872",
+            "name": "Morocco",
+            "code": "MAR",
+            "country": "MAR"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 3,
+          "goalDifference": 3,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43967",
+            "name": "Scotland",
+            "code": "SCO",
+            "country": "SCO"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 3,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43908",
+            "name": "Haiti",
+            "code": "HAI",
+            "country": "HAI"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 8,
+          "goalDifference": -6,
+          "points": 0,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289278",
+      "name": "Group D",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43921",
+            "name": "USA",
+            "code": "USA",
+            "country": "USA"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 4,
+          "goalDifference": 4,
+          "points": 6,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43976",
+            "name": "Australia",
+            "code": "AUS",
+            "country": "AUS"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43928",
+            "name": "Paraguay",
+            "code": "PAR",
+            "country": "PAR"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43972",
+            "name": "Türkiye",
+            "code": "TUR",
+            "country": "TUR"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2,
+          "points": 3,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289279",
+      "name": "Group E",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43948",
+            "name": "Germany",
+            "code": "GER",
+            "country": "GER"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "goalDifference": 6,
+          "points": 6,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43854",
+            "name": "Côte d'Ivoire",
+            "code": "CIV",
+            "country": "CIV"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 2,
+          "goalDifference": 2,
+          "points": 6,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43927",
+            "name": "Ecuador",
+            "code": "ECU",
+            "country": "ECU"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "1895293",
+            "name": "Curaçao",
+            "code": "CUW",
+            "country": "CUW"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 9,
+          "goalDifference": -8,
+          "points": 1,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289280",
+      "name": "Group F",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43960",
+            "name": "Netherlands",
+            "code": "NED",
+            "country": "NED"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "goalDifference": 6,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43819",
+            "name": "Japan",
+            "code": "JPN",
+            "country": "JPN"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4,
+          "points": 5,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43970",
+            "name": "Sweden",
+            "code": "SWE",
+            "country": "SWE"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 7,
+          "goalsAgainst": 7,
+          "goalDifference": 0,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43888",
+            "name": "Tunisia",
+            "code": "TUN",
+            "country": "TUN"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 12,
+          "goalDifference": -10,
+          "points": 0,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289281",
+      "name": "Group G",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43935",
+            "name": "Belgium",
+            "code": "BEL",
+            "country": "BEL"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "points": 5,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43855",
+            "name": "Egypt",
+            "code": "EGY",
+            "country": "EGY"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 3,
+          "goalDifference": 2,
+          "points": 5,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43817",
+            "name": "IR Iran",
+            "code": "IRN",
+            "country": "IRN"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 3,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43978",
+            "name": "New Zealand",
+            "code": "NZL",
+            "country": "NZL"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goalsFor": 4,
+          "goalsAgainst": 10,
+          "goalDifference": -6,
+          "points": 1,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289282",
+      "name": "Group H",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43969",
+            "name": "Spain",
+            "code": "ESP",
+            "country": "ESP"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43850",
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "country": "CPV"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 3,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43930",
+            "name": "Uruguay",
+            "code": "URU",
+            "country": "URU"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1,
+          "points": 2,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43835",
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "country": "KSA"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 2,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
+          "points": 2,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289283",
+      "name": "Group I",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43946",
+            "name": "France",
+            "code": "FRA",
+            "country": "FRA"
+          },
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 10,
+          "goalsAgainst": 2,
+          "goalDifference": 8,
+          "points": 9,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43961",
+            "name": "Norway",
+            "code": "NOR",
+            "country": "NOR"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
+          "goalDifference": 1,
+          "points": 6,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43879",
+            "name": "Senegal",
+            "code": "SEN",
+            "country": "SEN"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goalsFor": 8,
+          "goalsAgainst": 6,
+          "goalDifference": 2,
+          "points": 3,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43818",
+            "name": "Iraq",
+            "code": "IRQ",
+            "country": "IRQ"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 1,
+          "goalsAgainst": 12,
+          "goalDifference": -11,
+          "points": 0,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289284",
+      "name": "Group J",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43922",
+            "name": "Argentina",
+            "code": "ARG",
+            "country": "ARG"
+          },
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 1,
+          "goalDifference": 7,
+          "points": 9,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43934",
+            "name": "Austria",
+            "code": "AUT",
+            "country": "AUT"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 6,
+          "goalDifference": 0,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43843",
+            "name": "Algeria",
+            "code": "ALG",
+            "country": "ALG"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 7,
+          "goalDifference": -2,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43820",
+            "name": "Jordan",
+            "code": "JOR",
+            "country": "JOR"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 8,
+          "goalDifference": -5,
+          "points": 0,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289285",
+      "name": "Group K",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43926",
+            "name": "Colombia",
+            "code": "COL",
+            "country": "COL"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43963",
+            "name": "Portugal",
+            "code": "POR",
+            "country": "POR"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 5,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "20014",
+            "name": "Congo DR",
+            "code": "COD",
+            "country": "COD"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 3,
+          "goalDifference": 1,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "44005",
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "country": "UZB"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 11,
+          "goalDifference": -9,
+          "points": 0,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    },
+    {
+      "id": "289286",
+      "name": "Group L",
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": "43942",
+            "name": "England",
+            "code": "ENG",
+            "country": "ENG"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 2,
+          "goalDifference": 4,
+          "points": 7,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "43938",
+            "name": "Croatia",
+            "code": "CRO",
+            "country": "CRO"
+          },
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 5,
+          "goalDifference": 0,
+          "points": 6,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": "43860",
+            "name": "Ghana",
+            "code": "GHA",
+            "country": "GHA"
+          },
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 4,
+          "qualificationStatus": "ConfirmedQualified",
+          "fairPlayCoefficient": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "43914",
+            "name": "Panama",
+            "code": "PAN",
+            "country": "PAN"
+          },
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goalsFor": 0,
+          "goalsAgainst": 4,
+          "goalDifference": -4,
+          "points": 0,
+          "qualificationStatus": "Eliminated",
+          "fairPlayCoefficient": 0
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "400021443",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289275",
+      "stage": "First Stage",
+      "group": "Group A",
+      "date": "2026-06-11T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 1,
+      "home": {
+        "id": "43911",
+        "name": "Mexico",
+        "code": "MEX",
+        "country": "MEX"
+      },
+      "away": {
+        "id": "43883",
+        "name": "South Africa",
+        "code": "RSA",
+        "country": "RSA"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Mexico City Stadium",
+      "city": "Mexico City",
+      "attendance": 80824,
+      "ifesId": "151600"
+    },
+    {
+      "id": "400021441",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289275",
+      "stage": "First Stage",
+      "group": "Group A",
+      "date": "2026-06-12T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 2,
+      "home": {
+        "id": "43822",
+        "name": "Korea Republic",
+        "code": "KOR",
+        "country": "KOR"
+      },
+      "away": {
+        "id": "43995",
+        "name": "Czechia",
+        "code": "CZE",
+        "country": "CZE"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Guadalajara Stadium",
+      "city": "Guadalajara",
+      "attendance": 44985,
+      "ifesId": "151608"
+    },
+    {
+      "id": "400021449",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289276",
+      "stage": "First Stage",
+      "group": "Group B",
+      "date": "2026-06-12T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 3,
+      "home": {
+        "id": "43899",
+        "name": "Canada",
+        "code": "CAN",
+        "country": "CAN"
+      },
+      "away": {
+        "id": "44037",
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "country": "BIH"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Toronto Stadium",
+      "city": "Toronto",
+      "attendance": 43002,
+      "ifesId": "151614"
+    },
+    {
+      "id": "400021458",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289278",
+      "stage": "First Stage",
+      "group": "Group D",
+      "date": "2026-06-13T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 4,
+      "home": {
+        "id": "43921",
+        "name": "USA",
+        "code": "USA",
+        "country": "USA"
+      },
+      "away": {
+        "id": "43928",
+        "name": "Paraguay",
+        "code": "PAR",
+        "country": "PAR"
+      },
+      "score": {
+        "home": 4,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": 70492,
+      "ifesId": "151625"
+    },
+    {
+      "id": "400021447",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289276",
+      "stage": "First Stage",
+      "group": "Group B",
+      "date": "2026-06-13T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 8,
+      "home": {
+        "id": "43834",
+        "name": "Qatar",
+        "code": "QAT",
+        "country": "QAT"
+      },
+      "away": {
+        "id": "43971",
+        "name": "Switzerland",
+        "code": "SUI",
+        "country": "SUI"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "attendance": 67966,
+      "ifesId": "151613"
+    },
+    {
+      "id": "400021456",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289277",
+      "stage": "First Stage",
+      "group": "Group C",
+      "date": "2026-06-13T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 7,
+      "home": {
+        "id": "43924",
+        "name": "Brazil",
+        "code": "BRA",
+        "country": "BRA"
+      },
+      "away": {
+        "id": "43872",
+        "name": "Morocco",
+        "code": "MAR",
+        "country": "MAR"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": 80663,
+      "ifesId": "151620"
+    },
+    {
+      "id": "400021453",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289277",
+      "stage": "First Stage",
+      "group": "Group C",
+      "date": "2026-06-14T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 5,
+      "home": {
+        "id": "43908",
+        "name": "Haiti",
+        "code": "HAI",
+        "country": "HAI"
+      },
+      "away": {
+        "id": "43967",
+        "name": "Scotland",
+        "code": "SCO",
+        "country": "SCO"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": 64146,
+      "ifesId": "151619"
+    },
+    {
+      "id": "400021463",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289278",
+      "stage": "First Stage",
+      "group": "Group D",
+      "date": "2026-06-14T04:00:00Z",
+      "status": "completed",
+      "matchNumber": 6,
+      "home": {
+        "id": "43976",
+        "name": "Australia",
+        "code": "AUS",
+        "country": "AUS"
+      },
+      "away": {
+        "id": "43972",
+        "name": "Türkiye",
+        "code": "TUR",
+        "country": "TUR"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": 52497,
+      "ifesId": "151626"
+    },
+    {
+      "id": "400021464",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289279",
+      "stage": "First Stage",
+      "group": "Group E",
+      "date": "2026-06-14T17:00:00Z",
+      "status": "completed",
+      "matchNumber": 10,
+      "home": {
+        "id": "43948",
+        "name": "Germany",
+        "code": "GER",
+        "country": "GER"
+      },
+      "away": {
+        "id": "1895293",
+        "name": "Curaçao",
+        "code": "CUW",
+        "country": "CUW"
+      },
+      "score": {
+        "home": 7,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": 68021,
+      "ifesId": "151631"
+    },
+    {
+      "id": "400021470",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289280",
+      "stage": "First Stage",
+      "group": "Group F",
+      "date": "2026-06-14T20:00:00Z",
+      "status": "completed",
+      "matchNumber": 11,
+      "home": {
+        "id": "43960",
+        "name": "Netherlands",
+        "code": "NED",
+        "country": "NED"
+      },
+      "away": {
+        "id": "43819",
+        "name": "Japan",
+        "code": "JPN",
+        "country": "JPN"
+      },
+      "score": {
+        "home": 2,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": 69285,
+      "ifesId": "151638"
+    },
+    {
+      "id": "400021467",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289279",
+      "stage": "First Stage",
+      "group": "Group E",
+      "date": "2026-06-14T23:00:00Z",
+      "status": "completed",
+      "matchNumber": 9,
+      "home": {
+        "id": "43854",
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "country": "CIV"
+      },
+      "away": {
+        "id": "43927",
+        "name": "Ecuador",
+        "code": "ECU",
+        "country": "ECU"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "attendance": 68274,
+      "ifesId": "151632"
+    },
+    {
+      "id": "400021474",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289280",
+      "stage": "First Stage",
+      "group": "Group F",
+      "date": "2026-06-15T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 12,
+      "home": {
+        "id": "43970",
+        "name": "Sweden",
+        "code": "SWE",
+        "country": "SWE"
+      },
+      "away": {
+        "id": "43888",
+        "name": "Tunisia",
+        "code": "TUN",
+        "country": "TUN"
+      },
+      "score": {
+        "home": 5,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Monterrey Stadium",
+      "city": "Monterrey",
+      "attendance": 50987,
+      "ifesId": "151637"
+    },
+    {
+      "id": "400021482",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289282",
+      "stage": "First Stage",
+      "group": "Group H",
+      "date": "2026-06-15T16:00:00Z",
+      "status": "completed",
+      "matchNumber": 14,
+      "home": {
+        "id": "43969",
+        "name": "Spain",
+        "code": "ESP",
+        "country": "ESP"
+      },
+      "away": {
+        "id": "43850",
+        "name": "Cabo Verde",
+        "code": "CPV",
+        "country": "CPV"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": 67640,
+      "ifesId": "151649"
+    },
+    {
+      "id": "400021478",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289281",
+      "stage": "First Stage",
+      "group": "Group G",
+      "date": "2026-06-15T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 16,
+      "home": {
+        "id": "43935",
+        "name": "Belgium",
+        "code": "BEL",
+        "country": "BEL"
+      },
+      "away": {
+        "id": "43855",
+        "name": "Egypt",
+        "code": "EGY",
+        "country": "EGY"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Seattle Stadium",
+      "city": "Seattle",
+      "attendance": 66775,
+      "ifesId": "151643"
+    },
+    {
+      "id": "400021486",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289282",
+      "stage": "First Stage",
+      "group": "Group H",
+      "date": "2026-06-15T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 13,
+      "home": {
+        "id": "43835",
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "country": "KSA"
+      },
+      "away": {
+        "id": "43930",
+        "name": "Uruguay",
+        "code": "URU",
+        "country": "URU"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": 62764,
+      "ifesId": "151650"
+    },
+    {
+      "id": "400021476",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289281",
+      "stage": "First Stage",
+      "group": "Group G",
+      "date": "2026-06-16T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 15,
+      "home": {
+        "id": "43817",
+        "name": "IR Iran",
+        "code": "IRN",
+        "country": "IRN"
+      },
+      "away": {
+        "id": "43978",
+        "name": "New Zealand",
+        "code": "NZL",
+        "country": "NZL"
+      },
+      "score": {
+        "home": 2,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": 70108,
+      "ifesId": "151644"
+    },
+    {
+      "id": "400021490",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289283",
+      "stage": "First Stage",
+      "group": "Group I",
+      "date": "2026-06-16T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 17,
+      "home": {
+        "id": "43946",
+        "name": "France",
+        "code": "FRA",
+        "country": "FRA"
+      },
+      "away": {
+        "id": "43879",
+        "name": "Senegal",
+        "code": "SEN",
+        "country": "SEN"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": 80545,
+      "ifesId": "151656"
+    },
+    {
+      "id": "400021488",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289283",
+      "stage": "First Stage",
+      "group": "Group I",
+      "date": "2026-06-16T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 18,
+      "home": {
+        "id": "43818",
+        "name": "Iraq",
+        "code": "IRQ",
+        "country": "IRQ"
+      },
+      "away": {
+        "id": "43961",
+        "name": "Norway",
+        "code": "NOR",
+        "country": "NOR"
+      },
+      "score": {
+        "home": 1,
+        "away": 4,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": 63106,
+      "ifesId": "151655"
+    },
+    {
+      "id": "400021496",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289284",
+      "stage": "First Stage",
+      "group": "Group J",
+      "date": "2026-06-17T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 19,
+      "home": {
+        "id": "43922",
+        "name": "Argentina",
+        "code": "ARG",
+        "country": "ARG"
+      },
+      "away": {
+        "id": "43843",
+        "name": "Algeria",
+        "code": "ALG",
+        "country": "ALG"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Kansas City Stadium",
+      "city": "Kansas City",
+      "attendance": 69045,
+      "ifesId": "151662"
+    },
+    {
+      "id": "400021498",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289284",
+      "stage": "First Stage",
+      "group": "Group J",
+      "date": "2026-06-17T04:00:00Z",
+      "status": "completed",
+      "matchNumber": 20,
+      "home": {
+        "id": "43934",
+        "name": "Austria",
+        "code": "AUT",
+        "country": "AUT"
+      },
+      "away": {
+        "id": "43820",
+        "name": "Jordan",
+        "code": "JOR",
+        "country": "JOR"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "attendance": 68527,
+      "ifesId": "151661"
+    },
+    {
+      "id": "400021502",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289285",
+      "stage": "First Stage",
+      "group": "Group K",
+      "date": "2026-06-17T17:00:00Z",
+      "status": "completed",
+      "matchNumber": 23,
+      "home": {
+        "id": "43963",
+        "name": "Portugal",
+        "code": "POR",
+        "country": "POR"
+      },
+      "away": {
+        "id": "20014",
+        "name": "Congo DR",
+        "code": "COD",
+        "country": "COD"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": 68777,
+      "ifesId": "151668"
+    },
+    {
+      "id": "400021507",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289286",
+      "stage": "First Stage",
+      "group": "Group L",
+      "date": "2026-06-17T20:00:00Z",
+      "status": "completed",
+      "matchNumber": 22,
+      "home": {
+        "id": "43942",
+        "name": "England",
+        "code": "ENG",
+        "country": "ENG"
+      },
+      "away": {
+        "id": "43938",
+        "name": "Croatia",
+        "code": "CRO",
+        "country": "CRO"
+      },
+      "score": {
+        "home": 4,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": 70389,
+      "ifesId": "151673"
+    },
+    {
+      "id": "400021510",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289286",
+      "stage": "First Stage",
+      "group": "Group L",
+      "date": "2026-06-17T23:00:00Z",
+      "status": "completed",
+      "matchNumber": 21,
+      "home": {
+        "id": "43860",
+        "name": "Ghana",
+        "code": "GHA",
+        "country": "GHA"
+      },
+      "away": {
+        "id": "43914",
+        "name": "Panama",
+        "code": "PAN",
+        "country": "PAN"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Toronto Stadium",
+      "city": "Toronto",
+      "attendance": 42942,
+      "ifesId": "151674"
+    },
+    {
+      "id": "400021504",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289285",
+      "stage": "First Stage",
+      "group": "Group K",
+      "date": "2026-06-18T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 24,
+      "home": {
+        "id": "44005",
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "country": "UZB"
+      },
+      "away": {
+        "id": "43926",
+        "name": "Colombia",
+        "code": "COL",
+        "country": "COL"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Mexico City Stadium",
+      "city": "Mexico City",
+      "attendance": 80824,
+      "ifesId": "151667"
+    },
+    {
+      "id": "400021440",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289275",
+      "stage": "First Stage",
+      "group": "Group A",
+      "date": "2026-06-18T16:00:00Z",
+      "status": "completed",
+      "matchNumber": 25,
+      "home": {
+        "id": "43995",
+        "name": "Czechia",
+        "code": "CZE",
+        "country": "CZE"
+      },
+      "away": {
+        "id": "43883",
+        "name": "South Africa",
+        "code": "RSA",
+        "country": "RSA"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": 67442,
+      "ifesId": "151610"
+    },
+    {
+      "id": "400021446",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289276",
+      "stage": "First Stage",
+      "group": "Group B",
+      "date": "2026-06-18T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 26,
+      "home": {
+        "id": "43971",
+        "name": "Switzerland",
+        "code": "SUI",
+        "country": "SUI"
+      },
+      "away": {
+        "id": "44037",
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "country": "BIH"
+      },
+      "score": {
+        "home": 4,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": 70026,
+      "ifesId": "151616"
+    },
+    {
+      "id": "400021450",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289276",
+      "stage": "First Stage",
+      "group": "Group B",
+      "date": "2026-06-18T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 27,
+      "home": {
+        "id": "43899",
+        "name": "Canada",
+        "code": "CAN",
+        "country": "CAN"
+      },
+      "away": {
+        "id": "43834",
+        "name": "Qatar",
+        "code": "QAT",
+        "country": "QAT"
+      },
+      "score": {
+        "home": 6,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": 52497,
+      "ifesId": "151615"
+    },
+    {
+      "id": "400021442",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289275",
+      "stage": "First Stage",
+      "group": "Group A",
+      "date": "2026-06-19T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 28,
+      "home": {
+        "id": "43911",
+        "name": "Mexico",
+        "code": "MEX",
+        "country": "MEX"
+      },
+      "away": {
+        "id": "43822",
+        "name": "Korea Republic",
+        "code": "KOR",
+        "country": "KOR"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Guadalajara Stadium",
+      "city": "Guadalajara",
+      "attendance": 45522,
+      "ifesId": "151609"
+    },
+    {
+      "id": "400021462",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289278",
+      "stage": "First Stage",
+      "group": "Group D",
+      "date": "2026-06-19T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 32,
+      "home": {
+        "id": "43921",
+        "name": "USA",
+        "code": "USA",
+        "country": "USA"
+      },
+      "away": {
+        "id": "43976",
+        "name": "Australia",
+        "code": "AUS",
+        "country": "AUS"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Seattle Stadium",
+      "city": "Seattle",
+      "attendance": 66925,
+      "ifesId": "151627"
+    },
+    {
+      "id": "400021454",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289277",
+      "stage": "First Stage",
+      "group": "Group C",
+      "date": "2026-06-19T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 30,
+      "home": {
+        "id": "43967",
+        "name": "Scotland",
+        "code": "SCO",
+        "country": "SCO"
+      },
+      "away": {
+        "id": "43872",
+        "name": "Morocco",
+        "code": "MAR",
+        "country": "MAR"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": 64146,
+      "ifesId": "151621"
+    },
+    {
+      "id": "400021457",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289277",
+      "stage": "First Stage",
+      "group": "Group C",
+      "date": "2026-06-20T00:30:00Z",
+      "status": "completed",
+      "matchNumber": 29,
+      "home": {
+        "id": "43924",
+        "name": "Brazil",
+        "code": "BRA",
+        "country": "BRA"
+      },
+      "away": {
+        "id": "43908",
+        "name": "Haiti",
+        "code": "HAI",
+        "country": "HAI"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "attendance": 68324,
+      "ifesId": "151622"
+    },
+    {
+      "id": "400021460",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289278",
+      "stage": "First Stage",
+      "group": "Group D",
+      "date": "2026-06-20T03:00:00Z",
+      "status": "completed",
+      "matchNumber": 31,
+      "home": {
+        "id": "43972",
+        "name": "Türkiye",
+        "code": "TUR",
+        "country": "TUR"
+      },
+      "away": {
+        "id": "43928",
+        "name": "Paraguay",
+        "code": "PAR",
+        "country": "PAR"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "attendance": 68827,
+      "ifesId": "151628"
+    },
+    {
+      "id": "400021472",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289280",
+      "stage": "First Stage",
+      "group": "Group F",
+      "date": "2026-06-20T17:00:00Z",
+      "status": "completed",
+      "matchNumber": 35,
+      "home": {
+        "id": "43960",
+        "name": "Netherlands",
+        "code": "NED",
+        "country": "NED"
+      },
+      "away": {
+        "id": "43970",
+        "name": "Sweden",
+        "code": "SWE",
+        "country": "SWE"
+      },
+      "score": {
+        "home": 5,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": 68777,
+      "ifesId": "151640"
+    },
+    {
+      "id": "400021469",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289279",
+      "stage": "First Stage",
+      "group": "Group E",
+      "date": "2026-06-20T20:00:00Z",
+      "status": "completed",
+      "matchNumber": 33,
+      "home": {
+        "id": "43948",
+        "name": "Germany",
+        "code": "GER",
+        "country": "GER"
+      },
+      "away": {
+        "id": "43854",
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "country": "CIV"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Toronto Stadium",
+      "city": "Toronto",
+      "attendance": 43036,
+      "ifesId": "151634"
+    },
+    {
+      "id": "400021465",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289279",
+      "stage": "First Stage",
+      "group": "Group E",
+      "date": "2026-06-21T00:00:00Z",
+      "status": "completed",
+      "matchNumber": 34,
+      "home": {
+        "id": "43927",
+        "name": "Ecuador",
+        "code": "ECU",
+        "country": "ECU"
+      },
+      "away": {
+        "id": "1895293",
+        "name": "Curaçao",
+        "code": "CUW",
+        "country": "CUW"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Kansas City Stadium",
+      "city": "Kansas City",
+      "attendance": 68598,
+      "ifesId": "151633"
+    },
+    {
+      "id": "400021475",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289280",
+      "stage": "First Stage",
+      "group": "Group F",
+      "date": "2026-06-21T04:00:00Z",
+      "status": "completed",
+      "matchNumber": 36,
+      "home": {
+        "id": "43888",
+        "name": "Tunisia",
+        "code": "TUN",
+        "country": "TUN"
+      },
+      "away": {
+        "id": "43819",
+        "name": "Japan",
+        "code": "JPN",
+        "country": "JPN"
+      },
+      "score": {
+        "home": 0,
+        "away": 4,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Monterrey Stadium",
+      "city": "Monterrey",
+      "attendance": 51243,
+      "ifesId": "151639"
+    },
+    {
+      "id": "400021483",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289282",
+      "stage": "First Stage",
+      "group": "Group H",
+      "date": "2026-06-21T16:00:00Z",
+      "status": "completed",
+      "matchNumber": 38,
+      "home": {
+        "id": "43969",
+        "name": "Spain",
+        "code": "ESP",
+        "country": "ESP"
+      },
+      "away": {
+        "id": "43835",
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "country": "KSA"
+      },
+      "score": {
+        "home": 4,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": 68239,
+      "ifesId": "151651"
+    },
+    {
+      "id": "400021477",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289281",
+      "stage": "First Stage",
+      "group": "Group G",
+      "date": "2026-06-21T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 39,
+      "home": {
+        "id": "43935",
+        "name": "Belgium",
+        "code": "BEL",
+        "country": "BEL"
+      },
+      "away": {
+        "id": "43817",
+        "name": "IR Iran",
+        "code": "IRN",
+        "country": "IRN"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": 70317,
+      "ifesId": "151646"
+    },
+    {
+      "id": "400021487",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289282",
+      "stage": "First Stage",
+      "group": "Group H",
+      "date": "2026-06-21T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 37,
+      "home": {
+        "id": "43930",
+        "name": "Uruguay",
+        "code": "URU",
+        "country": "URU"
+      },
+      "away": {
+        "id": "43850",
+        "name": "Cabo Verde",
+        "code": "CPV",
+        "country": "CPV"
+      },
+      "score": {
+        "home": 2,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": 64003,
+      "ifesId": "151652"
+    },
+    {
+      "id": "400021480",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289281",
+      "stage": "First Stage",
+      "group": "Group G",
+      "date": "2026-06-22T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 40,
+      "home": {
+        "id": "43978",
+        "name": "New Zealand",
+        "code": "NZL",
+        "country": "NZL"
+      },
+      "away": {
+        "id": "43855",
+        "name": "Egypt",
+        "code": "EGY",
+        "country": "EGY"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": 52497,
+      "ifesId": "151645"
+    },
+    {
+      "id": "400021494",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289284",
+      "stage": "First Stage",
+      "group": "Group J",
+      "date": "2026-06-22T17:00:00Z",
+      "status": "completed",
+      "matchNumber": 43,
+      "home": {
+        "id": "43922",
+        "name": "Argentina",
+        "code": "ARG",
+        "country": "ARG"
+      },
+      "away": {
+        "id": "43934",
+        "name": "Austria",
+        "code": "AUT",
+        "country": "AUT"
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": 70649,
+      "ifesId": "151664"
+    },
+    {
+      "id": "400021492",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289283",
+      "stage": "First Stage",
+      "group": "Group I",
+      "date": "2026-06-22T21:00:00Z",
+      "status": "completed",
+      "matchNumber": 42,
+      "home": {
+        "id": "43946",
+        "name": "France",
+        "code": "FRA",
+        "country": "FRA"
+      },
+      "away": {
+        "id": "43818",
+        "name": "Iraq",
+        "code": "IRQ",
+        "country": "IRQ"
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "attendance": 68324,
+      "ifesId": "151657"
+    },
+    {
+      "id": "400021491",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289283",
+      "stage": "First Stage",
+      "group": "Group I",
+      "date": "2026-06-23T00:00:00Z",
+      "status": "completed",
+      "matchNumber": 41,
+      "home": {
+        "id": "43961",
+        "name": "Norway",
+        "code": "NOR",
+        "country": "NOR"
+      },
+      "away": {
+        "id": "43879",
+        "name": "Senegal",
+        "code": "SEN",
+        "country": "SEN"
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": 80663,
+      "ifesId": "151658"
+    },
+    {
+      "id": "400021499",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289284",
+      "stage": "First Stage",
+      "group": "Group J",
+      "date": "2026-06-23T03:00:00Z",
+      "status": "completed",
+      "matchNumber": 44,
+      "home": {
+        "id": "43820",
+        "name": "Jordan",
+        "code": "JOR",
+        "country": "JOR"
+      },
+      "away": {
+        "id": "43843",
+        "name": "Algeria",
+        "code": "ALG",
+        "country": "ALG"
+      },
+      "score": {
+        "home": 1,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "attendance": 68371,
+      "ifesId": "151663"
+    },
+    {
+      "id": "400021503",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289285",
+      "stage": "First Stage",
+      "group": "Group K",
+      "date": "2026-06-23T17:00:00Z",
+      "status": "completed",
+      "matchNumber": 47,
+      "home": {
+        "id": "43963",
+        "name": "Portugal",
+        "code": "POR",
+        "country": "POR"
+      },
+      "away": {
+        "id": "44005",
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "country": "UZB"
+      },
+      "score": {
+        "home": 5,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": 68777,
+      "ifesId": "151670"
+    },
+    {
+      "id": "400021506",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289286",
+      "stage": "First Stage",
+      "group": "Group L",
+      "date": "2026-06-23T20:00:00Z",
+      "status": "completed",
+      "matchNumber": 45,
+      "home": {
+        "id": "43942",
+        "name": "England",
+        "code": "ENG",
+        "country": "ENG"
+      },
+      "away": {
+        "id": "43860",
+        "name": "Ghana",
+        "code": "GHA",
+        "country": "GHA"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": 63983,
+      "ifesId": "151676"
+    },
+    {
+      "id": "400021511",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289286",
+      "stage": "First Stage",
+      "group": "Group L",
+      "date": "2026-06-23T23:00:00Z",
+      "status": "completed",
+      "matchNumber": 46,
+      "home": {
+        "id": "43914",
+        "name": "Panama",
+        "code": "PAN",
+        "country": "PAN"
+      },
+      "away": {
+        "id": "43938",
+        "name": "Croatia",
+        "code": "CRO",
+        "country": "CRO"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Toronto Stadium",
+      "city": "Toronto",
+      "attendance": 43036,
+      "ifesId": "151675"
+    },
+    {
+      "id": "400021501",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289285",
+      "stage": "First Stage",
+      "group": "Group K",
+      "date": "2026-06-24T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 48,
+      "home": {
+        "id": "43926",
+        "name": "Colombia",
+        "code": "COL",
+        "country": "COL"
+      },
+      "away": {
+        "id": "20014",
+        "name": "Congo DR",
+        "code": "COD",
+        "country": "COD"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Guadalajara Stadium",
+      "city": "Guadalajara",
+      "attendance": 45358,
+      "ifesId": "151669"
+    },
+    {
+      "id": "400021448",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289276",
+      "stage": "First Stage",
+      "group": "Group B",
+      "date": "2026-06-24T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 52,
+      "home": {
+        "id": "44037",
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "country": "BIH"
+      },
+      "away": {
+        "id": "43834",
+        "name": "Qatar",
+        "code": "QAT",
+        "country": "QAT"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Seattle Stadium",
+      "city": "Seattle",
+      "attendance": 66925,
+      "ifesId": "151618"
+    },
+    {
+      "id": "400021451",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289276",
+      "stage": "First Stage",
+      "group": "Group B",
+      "date": "2026-06-24T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 51,
+      "home": {
+        "id": "43971",
+        "name": "Switzerland",
+        "code": "SUI",
+        "country": "SUI"
+      },
+      "away": {
+        "id": "43899",
+        "name": "Canada",
+        "code": "CAN",
+        "country": "CAN"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": 52497,
+      "ifesId": "151617"
+    },
+    {
+      "id": "400021452",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289277",
+      "stage": "First Stage",
+      "group": "Group C",
+      "date": "2026-06-24T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 50,
+      "home": {
+        "id": "43872",
+        "name": "Morocco",
+        "code": "MAR",
+        "country": "MAR"
+      },
+      "away": {
+        "id": "43908",
+        "name": "Haiti",
+        "code": "HAI",
+        "country": "HAI"
+      },
+      "score": {
+        "home": 4,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": 68239,
+      "ifesId": "151623"
+    },
+    {
+      "id": "400021455",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289277",
+      "stage": "First Stage",
+      "group": "Group C",
+      "date": "2026-06-24T22:00:00Z",
+      "status": "completed",
+      "matchNumber": 49,
+      "home": {
+        "id": "43967",
+        "name": "Scotland",
+        "code": "SCO",
+        "country": "SCO"
+      },
+      "away": {
+        "id": "43924",
+        "name": "Brazil",
+        "code": "BRA",
+        "country": "BRA"
+      },
+      "score": {
+        "home": 0,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": 64478,
+      "ifesId": "151624"
+    },
+    {
+      "id": "400021445",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289275",
+      "stage": "First Stage",
+      "group": "Group A",
+      "date": "2026-06-25T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 54,
+      "home": {
+        "id": "43883",
+        "name": "South Africa",
+        "code": "RSA",
+        "country": "RSA"
+      },
+      "away": {
+        "id": "43822",
+        "name": "Korea Republic",
+        "code": "KOR",
+        "country": "KOR"
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Monterrey Stadium",
+      "city": "Monterrey",
+      "attendance": 51243,
+      "ifesId": "151612"
+    },
+    {
+      "id": "400021444",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289275",
+      "stage": "First Stage",
+      "group": "Group A",
+      "date": "2026-06-25T01:00:00Z",
+      "status": "completed",
+      "matchNumber": 53,
+      "home": {
+        "id": "43995",
+        "name": "Czechia",
+        "code": "CZE",
+        "country": "CZE"
+      },
+      "away": {
+        "id": "43911",
+        "name": "Mexico",
+        "code": "MEX",
+        "country": "MEX"
+      },
+      "score": {
+        "home": 0,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Mexico City Stadium",
+      "city": "Mexico City",
+      "attendance": 80824,
+      "ifesId": "151611"
+    },
+    {
+      "id": "400021468",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289279",
+      "stage": "First Stage",
+      "group": "Group E",
+      "date": "2026-06-25T20:00:00Z",
+      "status": "completed",
+      "matchNumber": 55,
+      "home": {
+        "id": "1895293",
+        "name": "Curaçao",
+        "code": "CUW",
+        "country": "CUW"
+      },
+      "away": {
+        "id": "43854",
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "country": "CIV"
+      },
+      "score": {
+        "home": 0,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "attendance": 68324,
+      "ifesId": "151635"
+    },
+    {
+      "id": "400021466",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289279",
+      "stage": "First Stage",
+      "group": "Group E",
+      "date": "2026-06-25T20:00:00Z",
+      "status": "completed",
+      "matchNumber": 56,
+      "home": {
+        "id": "43927",
+        "name": "Ecuador",
+        "code": "ECU",
+        "country": "ECU"
+      },
+      "away": {
+        "id": "43948",
+        "name": "Germany",
+        "code": "GER",
+        "country": "GER"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": 80663,
+      "ifesId": "151636"
+    },
+    {
+      "id": "400021473",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289280",
+      "stage": "First Stage",
+      "group": "Group F",
+      "date": "2026-06-25T23:00:00Z",
+      "status": "completed",
+      "matchNumber": 58,
+      "home": {
+        "id": "43888",
+        "name": "Tunisia",
+        "code": "TUN",
+        "country": "TUN"
+      },
+      "away": {
+        "id": "43960",
+        "name": "Netherlands",
+        "code": "NED",
+        "country": "NED"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Kansas City Stadium",
+      "city": "Kansas City",
+      "attendance": 68391,
+      "ifesId": "151642"
+    },
+    {
+      "id": "400021471",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289280",
+      "stage": "First Stage",
+      "group": "Group F",
+      "date": "2026-06-25T23:00:00Z",
+      "status": "completed",
+      "matchNumber": 57,
+      "home": {
+        "id": "43819",
+        "name": "Japan",
+        "code": "JPN",
+        "country": "JPN"
+      },
+      "away": {
+        "id": "43970",
+        "name": "Sweden",
+        "code": "SWE",
+        "country": "SWE"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": 70137,
+      "ifesId": "151641"
+    },
+    {
+      "id": "400021461",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289278",
+      "stage": "First Stage",
+      "group": "Group D",
+      "date": "2026-06-26T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 60,
+      "home": {
+        "id": "43928",
+        "name": "Paraguay",
+        "code": "PAR",
+        "country": "PAR"
+      },
+      "away": {
+        "id": "43976",
+        "name": "Australia",
+        "code": "AUS",
+        "country": "AUS"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "attendance": 68827,
+      "ifesId": "151629"
+    },
+    {
+      "id": "400021459",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289278",
+      "stage": "First Stage",
+      "group": "Group D",
+      "date": "2026-06-26T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 59,
+      "home": {
+        "id": "43972",
+        "name": "Türkiye",
+        "code": "TUR",
+        "country": "TUR"
+      },
+      "away": {
+        "id": "43921",
+        "name": "USA",
+        "code": "USA",
+        "country": "USA"
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": 70492,
+      "ifesId": "151630"
+    },
+    {
+      "id": "400021493",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289283",
+      "stage": "First Stage",
+      "group": "Group I",
+      "date": "2026-06-26T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 62,
+      "home": {
+        "id": "43879",
+        "name": "Senegal",
+        "code": "SEN",
+        "country": "SEN"
+      },
+      "away": {
+        "id": "43818",
+        "name": "Iraq",
+        "code": "IRQ",
+        "country": "IRQ"
+      },
+      "score": {
+        "home": 5,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Toronto Stadium",
+      "city": "Toronto",
+      "attendance": 43036,
+      "ifesId": "151659"
+    },
+    {
+      "id": "400021489",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289283",
+      "stage": "First Stage",
+      "group": "Group I",
+      "date": "2026-06-26T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 61,
+      "home": {
+        "id": "43961",
+        "name": "Norway",
+        "code": "NOR",
+        "country": "NOR"
+      },
+      "away": {
+        "id": "43946",
+        "name": "France",
+        "code": "FRA",
+        "country": "FRA"
+      },
+      "score": {
+        "home": 1,
+        "away": 4,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": 64146,
+      "ifesId": "151660"
+    },
+    {
+      "id": "400021484",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289282",
+      "stage": "First Stage",
+      "group": "Group H",
+      "date": "2026-06-27T00:00:00Z",
+      "status": "completed",
+      "matchNumber": 66,
+      "home": {
+        "id": "43930",
+        "name": "Uruguay",
+        "code": "URU",
+        "country": "URU"
+      },
+      "away": {
+        "id": "43969",
+        "name": "Spain",
+        "code": "ESP",
+        "country": "ESP"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Guadalajara Stadium",
+      "city": "Guadalajara",
+      "attendance": 45065,
+      "ifesId": "151653"
+    },
+    {
+      "id": "400021485",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289282",
+      "stage": "First Stage",
+      "group": "Group H",
+      "date": "2026-06-27T00:00:00Z",
+      "status": "completed",
+      "matchNumber": 65,
+      "home": {
+        "id": "43850",
+        "name": "Cabo Verde",
+        "code": "CPV",
+        "country": "CPV"
+      },
+      "away": {
+        "id": "43835",
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "country": "KSA"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": 68278,
+      "ifesId": "151654"
+    },
+    {
+      "id": "400021481",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289281",
+      "stage": "First Stage",
+      "group": "Group G",
+      "date": "2026-06-27T03:00:00Z",
+      "status": "completed",
+      "matchNumber": 64,
+      "home": {
+        "id": "43978",
+        "name": "New Zealand",
+        "code": "NZL",
+        "country": "NZL"
+      },
+      "away": {
+        "id": "43935",
+        "name": "Belgium",
+        "code": "BEL",
+        "country": "BEL"
+      },
+      "score": {
+        "home": 1,
+        "away": 5,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": 52497,
+      "ifesId": "151647"
+    },
+    {
+      "id": "400021479",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289281",
+      "stage": "First Stage",
+      "group": "Group G",
+      "date": "2026-06-27T03:00:00Z",
+      "status": "completed",
+      "matchNumber": 63,
+      "home": {
+        "id": "43855",
+        "name": "Egypt",
+        "code": "EGY",
+        "country": "EGY"
+      },
+      "away": {
+        "id": "43817",
+        "name": "IR Iran",
+        "code": "IRN",
+        "country": "IRN"
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Seattle Stadium",
+      "city": "Seattle",
+      "attendance": 66925,
+      "ifesId": "151648"
+    },
+    {
+      "id": "400021508",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289286",
+      "stage": "First Stage",
+      "group": "Group L",
+      "date": "2026-06-27T21:00:00Z",
+      "status": "completed",
+      "matchNumber": 67,
+      "home": {
+        "id": "43914",
+        "name": "Panama",
+        "code": "PAN",
+        "country": "PAN"
+      },
+      "away": {
+        "id": "43942",
+        "name": "England",
+        "code": "ENG",
+        "country": "ENG"
+      },
+      "score": {
+        "home": 0,
+        "away": 2,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": 80663,
+      "ifesId": "151678"
+    },
+    {
+      "id": "400021509",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289286",
+      "stage": "First Stage",
+      "group": "Group L",
+      "date": "2026-06-27T21:00:00Z",
+      "status": "completed",
+      "matchNumber": 68,
+      "home": {
+        "id": "43938",
+        "name": "Croatia",
+        "code": "CRO",
+        "country": "CRO"
+      },
+      "away": {
+        "id": "43860",
+        "name": "Ghana",
+        "code": "GHA",
+        "country": "GHA"
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "attendance": 68324,
+      "ifesId": "151677"
+    },
+    {
+      "id": "400021500",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289285",
+      "stage": "First Stage",
+      "group": "Group K",
+      "date": "2026-06-27T23:30:00Z",
+      "status": "completed",
+      "matchNumber": 72,
+      "home": {
+        "id": "20014",
+        "name": "Congo DR",
+        "code": "COD",
+        "country": "COD"
+      },
+      "away": {
+        "id": "44005",
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "country": "UZB"
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": 68239,
+      "ifesId": "151671"
+    },
+    {
+      "id": "400021505",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289285",
+      "stage": "First Stage",
+      "group": "Group K",
+      "date": "2026-06-27T23:30:00Z",
+      "status": "completed",
+      "matchNumber": 71,
+      "home": {
+        "id": "43926",
+        "name": "Colombia",
+        "code": "COL",
+        "country": "COL"
+      },
+      "away": {
+        "id": "43963",
+        "name": "Portugal",
+        "code": "POR",
+        "country": "POR"
+      },
+      "score": {
+        "home": 0,
+        "away": 0,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": 64478,
+      "ifesId": "151672"
+    },
+    {
+      "id": "400021497",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289284",
+      "stage": "First Stage",
+      "group": "Group J",
+      "date": "2026-06-28T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 69,
+      "home": {
+        "id": "43843",
+        "name": "Algeria",
+        "code": "ALG",
+        "country": "ALG"
+      },
+      "away": {
+        "id": "43934",
+        "name": "Austria",
+        "code": "AUT",
+        "country": "AUT"
+      },
+      "score": {
+        "home": 3,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Kansas City Stadium",
+      "city": "Kansas City",
+      "attendance": 69045,
+      "ifesId": "151666"
+    },
+    {
+      "id": "400021495",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289273",
+      "groupId": "289284",
+      "stage": "First Stage",
+      "group": "Group J",
+      "date": "2026-06-28T02:00:00Z",
+      "status": "completed",
+      "matchNumber": 70,
+      "home": {
+        "id": "43820",
+        "name": "Jordan",
+        "code": "JOR",
+        "country": "JOR"
+      },
+      "away": {
+        "id": "43922",
+        "name": "Argentina",
+        "code": "ARG",
+        "country": "ARG"
+      },
+      "score": {
+        "home": 1,
+        "away": 3,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": 70649,
+      "ifesId": "151665"
+    },
+    {
+      "id": "400021518",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-06-28T19:00:00Z",
+      "status": "completed",
+      "matchNumber": 73,
+      "home": {
+        "id": "43883",
+        "name": "South Africa",
+        "code": "RSA",
+        "country": "RSA"
+      },
+      "away": {
+        "id": "43899",
+        "name": "Canada",
+        "code": "CAN",
+        "country": "CAN"
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": 69237,
+      "ifesId": "151679"
+    },
+    {
+      "id": "400021516",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-06-29T17:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 76,
+      "home": {
+        "id": "43924",
+        "name": "Brazil",
+        "code": "BRA",
+        "country": "BRA"
+      },
+      "away": {
+        "id": "43819",
+        "name": "Japan",
+        "code": "JPN",
+        "country": "JPN"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": null,
+      "ifesId": "151681"
+    },
+    {
+      "id": "400021513",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-06-29T20:30:00Z",
+      "status": "scheduled",
+      "matchNumber": 74,
+      "home": {
+        "id": "43948",
+        "name": "Germany",
+        "code": "GER",
+        "country": "GER"
+      },
+      "away": {
+        "id": "43928",
+        "name": "Paraguay",
+        "code": "PAR",
+        "country": "PAR"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": null,
+      "ifesId": "151682"
+    },
+    {
+      "id": "400021522",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-06-30T01:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 75,
+      "home": {
+        "id": "43960",
+        "name": "Netherlands",
+        "code": "NED",
+        "country": "NED"
+      },
+      "away": {
+        "id": "43872",
+        "name": "Morocco",
+        "code": "MAR",
+        "country": "MAR"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Monterrey Stadium",
+      "city": "Monterrey",
+      "attendance": null,
+      "ifesId": "151680"
+    },
+    {
+      "id": "400021514",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-06-30T17:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 78,
+      "home": {
+        "id": "43854",
+        "name": "Côte d'Ivoire",
+        "code": "CIV",
+        "country": "CIV"
+      },
+      "away": {
+        "id": "43961",
+        "name": "Norway",
+        "code": "NOR",
+        "country": "NOR"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": null,
+      "ifesId": "151684"
+    },
+    {
+      "id": "400021523",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-06-30T21:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 77,
+      "home": {
+        "id": "43946",
+        "name": "France",
+        "code": "FRA",
+        "country": "FRA"
+      },
+      "away": {
+        "id": "43970",
+        "name": "Sweden",
+        "code": "SWE",
+        "country": "SWE"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": null,
+      "ifesId": "151685"
+    },
+    {
+      "id": "400021520",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-01T01:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 79,
+      "home": {
+        "id": "43911",
+        "name": "Mexico",
+        "code": "MEX",
+        "country": "MEX"
+      },
+      "away": {
+        "id": "43927",
+        "name": "Ecuador",
+        "code": "ECU",
+        "country": "ECU"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Mexico City Stadium",
+      "city": "Mexico City",
+      "attendance": null,
+      "ifesId": "151683"
+    },
+    {
+      "id": "400021512",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-01T16:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 80,
+      "home": {
+        "id": "43942",
+        "name": "England",
+        "code": "ENG",
+        "country": "ENG"
+      },
+      "away": {
+        "id": "20014",
+        "name": "Congo DR",
+        "code": "COD",
+        "country": "COD"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": null,
+      "ifesId": "151688"
+    },
+    {
+      "id": "400021525",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-01T20:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 82,
+      "home": {
+        "id": "43935",
+        "name": "Belgium",
+        "code": "BEL",
+        "country": "BEL"
+      },
+      "away": {
+        "id": "43879",
+        "name": "Senegal",
+        "code": "SEN",
+        "country": "SEN"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Seattle Stadium",
+      "city": "Seattle",
+      "attendance": null,
+      "ifesId": "151686"
+    },
+    {
+      "id": "400021524",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-02T00:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 81,
+      "home": {
+        "id": "43921",
+        "name": "USA",
+        "code": "USA",
+        "country": "USA"
+      },
+      "away": {
+        "id": "44037",
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "country": "BIH"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "San Francisco Bay Area Stadium",
+      "city": "San Francisco Bay Area",
+      "attendance": null,
+      "ifesId": "151687"
+    },
+    {
+      "id": "400021519",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-02T19:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 84,
+      "home": {
+        "id": "43969",
+        "name": "Spain",
+        "code": "ESP",
+        "country": "ESP"
+      },
+      "away": {
+        "id": "43934",
+        "name": "Austria",
+        "code": "AUT",
+        "country": "AUT"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": null,
+      "ifesId": "151690"
+    },
+    {
+      "id": "400021526",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-02T23:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 83,
+      "home": {
+        "id": "43963",
+        "name": "Portugal",
+        "code": "POR",
+        "country": "POR"
+      },
+      "away": {
+        "id": "43938",
+        "name": "Croatia",
+        "code": "CRO",
+        "country": "CRO"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Toronto Stadium",
+      "city": "Toronto",
+      "attendance": null,
+      "ifesId": "151691"
+    },
+    {
+      "id": "400021527",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-03T03:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 85,
+      "home": {
+        "id": "43971",
+        "name": "Switzerland",
+        "code": "SUI",
+        "country": "SUI"
+      },
+      "away": {
+        "id": "43843",
+        "name": "Algeria",
+        "code": "ALG",
+        "country": "ALG"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": null,
+      "ifesId": "151689"
+    },
+    {
+      "id": "400021515",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-03T18:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 88,
+      "home": {
+        "id": "43976",
+        "name": "Australia",
+        "code": "AUS",
+        "country": "AUS"
+      },
+      "away": {
+        "id": "43855",
+        "name": "Egypt",
+        "code": "EGY",
+        "country": "EGY"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": null,
+      "ifesId": "151692"
+    },
+    {
+      "id": "400021521",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-03T22:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 86,
+      "home": {
+        "id": "43922",
+        "name": "Argentina",
+        "code": "ARG",
+        "country": "ARG"
+      },
+      "away": {
+        "id": "43850",
+        "name": "Cabo Verde",
+        "code": "CPV",
+        "country": "CPV"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": null,
+      "ifesId": "151694"
+    },
+    {
+      "id": "400021517",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289287",
+      "groupId": null,
+      "stage": "Round of 32",
+      "group": "",
+      "date": "2026-07-04T01:30:00Z",
+      "status": "scheduled",
+      "matchNumber": 87,
+      "home": {
+        "id": "43926",
+        "name": "Colombia",
+        "code": "COL",
+        "country": "COL"
+      },
+      "away": {
+        "id": "43860",
+        "name": "Ghana",
+        "code": "GHA",
+        "country": "GHA"
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Kansas City Stadium",
+      "city": "Kansas City",
+      "attendance": null,
+      "ifesId": "151693"
+    },
+    {
+      "id": "400021530",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-04T17:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 90,
+      "home": {
+        "id": "43899",
+        "name": "Canada",
+        "code": "CAN",
+        "country": "CAN"
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Houston Stadium",
+      "city": "Houston",
+      "attendance": null,
+      "ifesId": "151695"
+    },
+    {
+      "id": "400021533",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-04T21:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 89,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "attendance": null,
+      "ifesId": "151696"
+    },
+    {
+      "id": "400021532",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-05T20:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 91,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": null,
+      "ifesId": "151698"
+    },
+    {
+      "id": "400021531",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-06T00:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 92,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Mexico City Stadium",
+      "city": "Mexico City",
+      "attendance": null,
+      "ifesId": "151697"
+    },
+    {
+      "id": "400021529",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-06T19:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 93,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": null,
+      "ifesId": "151700"
+    },
+    {
+      "id": "400021534",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-07T00:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 94,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Seattle Stadium",
+      "city": "Seattle",
+      "attendance": null,
+      "ifesId": "151699"
+    },
+    {
+      "id": "400021528",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-07T16:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 95,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": null,
+      "ifesId": "151702"
+    },
+    {
+      "id": "400021535",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289288",
+      "groupId": null,
+      "stage": "Round of 16",
+      "group": "",
+      "date": "2026-07-07T20:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 96,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "BC Place Vancouver",
+      "city": "Vancouver",
+      "attendance": null,
+      "ifesId": "151701"
+    },
+    {
+      "id": "400021536",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289289",
+      "groupId": null,
+      "stage": "Quarter-final",
+      "group": "",
+      "date": "2026-07-09T20:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 97,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Boston Stadium",
+      "city": "Boston",
+      "attendance": null,
+      "ifesId": "151703"
+    },
+    {
+      "id": "400021538",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289289",
+      "groupId": null,
+      "stage": "Quarter-final",
+      "group": "",
+      "date": "2026-07-10T19:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 98,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Los Angeles Stadium",
+      "city": "Los Angeles",
+      "attendance": null,
+      "ifesId": "151704"
+    },
+    {
+      "id": "400021539",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289289",
+      "groupId": null,
+      "stage": "Quarter-final",
+      "group": "",
+      "date": "2026-07-11T21:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 99,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": null,
+      "ifesId": "151706"
+    },
+    {
+      "id": "400021537",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289289",
+      "groupId": null,
+      "stage": "Quarter-final",
+      "group": "",
+      "date": "2026-07-12T01:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 100,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Kansas City Stadium",
+      "city": "Kansas City",
+      "attendance": null,
+      "ifesId": "151705"
+    },
+    {
+      "id": "400021541",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289290",
+      "groupId": null,
+      "stage": "Semi-final",
+      "group": "",
+      "date": "2026-07-14T19:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 101,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Dallas Stadium",
+      "city": "Dallas",
+      "attendance": null,
+      "ifesId": "151707"
+    },
+    {
+      "id": "400021540",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289290",
+      "groupId": null,
+      "stage": "Semi-final",
+      "group": "",
+      "date": "2026-07-15T19:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 102,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Atlanta Stadium",
+      "city": "Atlanta",
+      "attendance": null,
+      "ifesId": "151708"
+    },
+    {
+      "id": "400021542",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289291",
+      "groupId": null,
+      "stage": "Play-off for third place",
+      "group": "",
+      "date": "2026-07-18T21:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 103,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": null,
+      "ifesId": "151709"
+    },
+    {
+      "id": "400021543",
+      "competitionId": "17",
+      "seasonId": "285023",
+      "stageId": "289292",
+      "groupId": null,
+      "stage": "Final",
+      "group": "",
+      "date": "2026-07-19T19:00:00Z",
+      "status": "scheduled",
+      "matchNumber": 104,
+      "home": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "away": {
+        "id": "",
+        "name": "Unknown",
+        "code": "",
+        "country": ""
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalties": null,
+        "awayPenalties": null
+      },
+      "stadium": "New York/New Jersey Stadium",
+      "city": "New Jersey",
+      "attendance": null,
+      "ifesId": "151710"
+    }
+  ]
+}

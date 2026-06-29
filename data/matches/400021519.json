@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021519",
+    "ifesId": "151690",
+    "syncedAt": "2026-06-29T13:05:29.642Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021519",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-02T19:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43969",
+      "name": "Spain",
+      "code": "ESP",
+      "country": "ESP",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43934",
+      "name": "Austria",
+      "code": "AUT",
+      "country": "AUT",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151690"
+  }
+}

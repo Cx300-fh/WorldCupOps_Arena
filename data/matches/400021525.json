@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021525",
+    "ifesId": "151686",
+    "syncedAt": "2026-06-29T13:05:30.268Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021525",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-01T20:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43935",
+      "name": "Belgium",
+      "code": "BEL",
+      "country": "BEL",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43879",
+      "name": "Senegal",
+      "code": "SEN",
+      "country": "SEN",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151686"
+  }
+}

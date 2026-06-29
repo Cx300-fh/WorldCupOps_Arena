@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021526",
+    "ifesId": "151691",
+    "syncedAt": "2026-06-29T13:05:27.616Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021526",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-02T23:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43963",
+      "name": "Portugal",
+      "code": "POR",
+      "country": "POR",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43938",
+      "name": "Croatia",
+      "code": "CRO",
+      "country": "CRO",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151691"
+  }
+}

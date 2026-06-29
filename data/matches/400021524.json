@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021524",
+    "ifesId": "151687",
+    "syncedAt": "2026-06-29T13:05:29.418Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021524",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-02T00:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43921",
+      "name": "USA",
+      "code": "USA",
+      "country": "USA",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "44037",
+      "name": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "country": "BIH",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151687"
+  }
+}

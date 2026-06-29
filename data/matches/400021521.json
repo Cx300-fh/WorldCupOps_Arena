@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021521",
+    "ifesId": "151694",
+    "syncedAt": "2026-06-29T13:05:26.279Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021521",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-03T22:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43922",
+      "name": "Argentina",
+      "code": "ARG",
+      "country": "ARG",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43850",
+      "name": "Cabo Verde",
+      "code": "CPV",
+      "country": "CPV",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151694"
+  }
+}

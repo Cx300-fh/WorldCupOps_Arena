@@ -1,0 +1,12 @@
+{
+  "name": "worldcupops-arena",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WorldCup-themed Vibe Coding teaching arena with prediction, standings simulation, visualization, and task packs.",
+  "scripts": {
+    "start": "node server/server.js",
+    "sync": "node server/sync.js",
+    "test": "node test/worldcup-core.test.js && node test/fifa-normalize.test.js && node test/fifa-client.test.js && node test/server.test.js && node test/ui-structure.test.js",
+    "serve:snapshot": "python3 -m http.server 5175"
+  }
+}

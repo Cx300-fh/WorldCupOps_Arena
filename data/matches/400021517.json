@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021517",
+    "ifesId": "151693",
+    "syncedAt": "2026-06-29T13:05:26.186Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021517",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-04T01:30:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43926",
+      "name": "Colombia",
+      "code": "COL",
+      "country": "COL",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43860",
+      "name": "Ghana",
+      "code": "GHA",
+      "country": "GHA",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151693"
+  }
+}

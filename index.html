@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WorldCupOps Arena · FIFA Live Data</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css?v=20260629-4" />
+    <script src="src/worldcup-core.js?v=20260629-4" defer></script>
+    <script src="src/app.js?v=20260629-4" defer></script>
+  </head>
+  <body>
+    <div class="tournament-arc arc-one" aria-hidden="true"></div>
+    <div class="tournament-arc arc-two" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <header class="tournament-header">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true"><span>26</span><small>OPS</small></div>
+          <div>
+            <p class="eyebrow">FIFA OFFICIAL</p>
+            <h1>WorldCupOps Arena</h1>
+            <p class="lead">美加墨世界杯实时赛事、竞猜与数据实验场</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <div class="data-state">
+            <span id="sourceBadge" class="source-badge">正在读取数据</span>
+            <small>最后同步 <strong id="lastSync">--</strong></small>
+          </div>
+          <button id="refreshData" class="icon-button secondary-action" type="button" title="同步 FIFA 官方数据" aria-label="同步 FIFA 官方数据">↻</button>
+          <button id="openTeachingLab" class="lab-button" type="button" aria-controls="teachingLabDrawer" aria-expanded="false"><span>⌘</span> 实验室</button>
+        </div>
+      </header>
+
+      <div class="data-notice" aria-live="polite">
+        <span class="pulse-dot"></span>
+        <strong id="syncMessage">比赛与积分榜每小时同步</strong>
+        <span class="notice-meta">自动刷新 <b id="refreshInterval">1 小时</b></span>
+      </div>
+
+      <nav class="primary-nav" aria-label="世界杯数据中心主导航">
+        <button type="button" data-view-target="overview" class="active" aria-selected="true">总览</button>
+        <button type="button" data-view-target="groups" aria-selected="false">小组赛</button>
+        <button type="button" data-view-target="knockout" aria-selected="false">淘汰赛</button>
+        <button type="button" data-view-target="schedule" aria-selected="false">赛程中心</button>
+        <button type="button" data-view-target="data" aria-selected="false">数据中心</button>
+      </nav>
+
+      <div class="view-stack">
+        <section class="view-panel active" data-view-panel="overview" aria-labelledby="overviewTitle">
+          <article id="faceoffHero" class="faceoff-hero reveal">
+            <div id="heroBackdrop" class="hero-backdrop" aria-hidden="true"></div>
+            <div class="hero-atmosphere" aria-hidden="true"></div>
+
+            <header class="hero-topline">
+              <div class="faceoff-meta"><span id="featuredStage">MATCHDAY</span><strong id="featuredKickoff">--</strong></div>
+              <div class="faceoff-meta right"><span id="featuredVenue">WORLD CUP 26</span><strong id="featuredStatus" class="live-pill">读取中</strong></div>
+            </header>
+
+            <div class="hero-editorial">
+              <p>ONE TOURNAMENT · EVERY MATCH</p>
+              <h2 id="overviewTitle"><span>WORLD CUP</span><strong>IN MOTION</strong></h2>
+              <div class="hero-edition"><b>26</b><span>Canada<br />Mexico<br />United States</span></div>
+            </div>
+
+            <div id="featuredMatch" class="faceoff-arena">
+              <div class="hero-side home">
+                <div class="hero-player-shell"><img id="homeHeroPlayer" class="hero-player" src="assets/players/mexico-montes.png" alt="" /><div id="homeHeroFlag" class="hero-flag"></div></div>
+                <div id="homeHeroLabel" class="hero-team-label"></div>
+              </div>
+              <button id="featuredAction" class="faceoff-score" type="button">
+                <span>MATCH CENTRE</span><strong>- : -</strong><small>进入比赛中心 →</small>
+              </button>
+              <div class="hero-side away">
+                <div class="hero-player-shell"><img id="awayHeroPlayer" class="hero-player" src="assets/players/south-africa-williams.png" alt="" /><div id="awayHeroFlag" class="hero-flag"></div></div>
+                <div id="awayHeroLabel" class="hero-team-label"></div>
+              </div>
+            </div>
+
+            <footer class="hero-selector">
+              <button id="spotlightPrev" class="spotlight-arrow" type="button" aria-label="上一场比赛">←</button>
+              <div id="spotlightRail" class="spotlight-rail" aria-label="切换焦点比赛"></div>
+              <button id="spotlightNext" class="spotlight-arrow" type="button" aria-label="下一场比赛">→</button>
+              <button class="hero-all-matches" type="button" data-go-view="schedule">全部 104 场</button>
+            </footer>
+          </article>
+
+          <section class="tournament-stat-band" aria-label="赛事概览">
+            <div class="stat-band-intro"><p>TOURNAMENT PULSE</p><h2>一届世界杯<br />一百零四种可能</h2></div>
+            <div class="stat-band-progress"><strong id="progressPercent">0%</strong><span>赛事进度</span><div class="progress-track"><i id="progressBar"></i></div></div>
+            <div class="metric-grid">
+              <div><strong id="matchCount">--</strong><span>全部比赛</span></div>
+              <div><strong id="teamCount">--</strong><span>参赛球队</span></div>
+              <div><strong>16</strong><span>主办城市</span></div>
+              <div><strong id="completedCount">--</strong><span>已完赛</span></div>
+              <div><strong id="scheduledCount">--</strong><span>待赛</span></div>
+            </div>
+            <dl class="data-health">
+              <div><dt>比赛缓存</dt><dd id="tournamentCacheStatus">--</dd></div>
+              <div><dt>单场详情</dt><dd id="detailCacheStatus">尚未选择</dd></div>
+              <div><dt>降级策略</dt><dd>最后成功快照</dd></div>
+            </dl>
+          </section>
+
+          <section class="panel next-matches-panel">
+            <div class="section-heading">
+              <div><p class="section-kicker">NEXT ON THE PITCH</p><h2>下一批比赛</h2></div>
+              <button class="text-button" type="button" data-go-view="schedule">打开赛程中心 →</button>
+            </div>
+            <div id="overviewMatches" class="match-row-grid"></div>
+          </section>
+
+          <section class="panel group-snapshot-panel">
+            <div class="section-heading">
+              <div><p class="section-kicker">12 GROUPS</p><h2>小组态势</h2></div>
+              <span class="muted-label">点击小组进入积分榜</span>
+            </div>
+            <div id="overviewGroups" class="group-snapshot-grid"></div>
+          </section>
+        </section>
+
+        <section class="view-panel" data-view-panel="groups" aria-labelledby="standingsTitle" hidden>
+          <div class="page-heading">
+            <div><p class="section-kicker">GROUP STAGE</p><h2 id="standingsTitle">小组积分榜</h2></div>
+            <div id="groupTabs" class="group-tabs" aria-label="选择小组"></div>
+          </div>
+
+          <div class="group-dashboard">
+            <section class="panel standings-panel">
+              <div class="section-heading"><h3>实时排名</h3><span class="legend"><i></i> 前二直接晋级</span></div>
+              <div class="table-scroll">
+                <table class="standings-table">
+                  <thead><tr><th>#</th><th>球队</th><th>赛</th><th>胜</th><th>平</th><th>负</th><th>净</th><th>分</th><th>状态</th></tr></thead>
+                  <tbody id="standingsBody"></tbody>
+                </table>
+              </div>
+              <div id="pointsBars" class="bar-chart"></div>
+            </section>
+
+            <section class="panel group-matches-panel">
+              <div class="section-heading"><h3>本组比赛</h3><span id="groupMatchCount" class="badge">6 场</span></div>
+              <div id="groupMatches" class="compact-match-list"></div>
+            </section>
+          </div>
+
+          <section class="panel third-place-panel">
+            <div class="third-place-head">
+              <div><p class="section-kicker">QUALIFICATION LINE</p><h2>最佳第三名</h2><p>当前晋级区前 8 队</p></div>
+              <button id="thirdPlaceToggle" class="outline-button" type="button" aria-expanded="false" aria-controls="thirdPlaceDisclosure">查看完整 12 队排名</button>
+            </div>
+            <div id="thirdPlacePreview" class="third-place-strip"></div>
+            <div id="thirdPlaceDisclosure" class="third-place-disclosure" hidden>
+              <div class="table-scroll">
+                <table class="standings-table compact-table">
+                  <thead><tr><th>#</th><th>组</th><th>球队</th><th>分</th><th>净</th><th>进球</th><th>状态</th></tr></thead>
+                  <tbody id="thirdPlaceBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="view-panel" data-view-panel="knockout" aria-labelledby="knockoutTitle" hidden>
+          <div class="page-heading knockout-heading">
+            <div><p class="section-kicker">ROAD TO THE FINAL</p><h2 id="knockoutTitle">淘汰赛路径</h2></div>
+            <div id="knockoutRoundTabs" class="round-tabs" aria-label="选择淘汰赛轮次"></div>
+          </div>
+          <section class="round-overview" id="knockoutStageSummary"></section>
+          <section class="panel knockout-panel">
+            <div class="section-heading"><h3 id="knockoutMatchesTitle">淘汰赛比赛</h3><span id="knockoutMatchCount" class="badge">0 场</span></div>
+            <div id="knockoutMatches" class="knockout-match-list"></div>
+          </section>
+        </section>
+
+        <section class="view-panel" data-view-panel="schedule" aria-labelledby="scheduleTitle" hidden>
+          <div class="page-heading schedule-heading">
+            <div><p class="section-kicker">104 MATCHES</p><h2 id="scheduleTitle">赛程中心</h2></div>
+            <span id="filteredCount" class="badge">0 场</span>
+          </div>
+
+          <section class="schedule-filters panel" aria-label="赛程筛选">
+            <label class="field"><span>阶段</span><select id="stageFilter"></select></label>
+            <label class="field"><span>小组</span><select id="groupFilter"></select></label>
+            <label class="field"><span>球队</span><select id="teamFilter"></select></label>
+            <label class="field"><span>状态</span><select id="statusFilter"><option value="">全部状态</option><option value="completed">已完赛</option><option value="live">进行中</option><option value="scheduled">待赛</option></select></label>
+            <button id="resetFilters" class="outline-button" type="button">重置</button>
+          </section>
+
+          <div id="scheduleDateRail" class="date-rail" aria-label="选择比赛日"></div>
+          <section id="scheduleSections" class="schedule-sections"></section>
+        </section>
+
+        <section class="view-panel" data-view-panel="data" aria-labelledby="matchDetailTitle" hidden>
+          <div class="page-heading data-heading">
+            <div><p class="section-kicker">MATCH INTELLIGENCE</p><h2 id="matchDetailTitle">选择一场比赛</h2></div>
+            <div class="detail-actions">
+              <button class="outline-button" type="button" data-go-view="schedule">更换比赛</button>
+              <button id="refreshMatch" class="icon-button" type="button" title="刷新单场数据" aria-label="刷新单场数据" disabled>↻</button>
+            </div>
+          </div>
+
+          <section id="matchDetailPanel" class="panel match-detail-panel">
+            <div id="matchEmpty" class="empty-state">从赛程中心选择一场比赛，查看官方比分、阵容、事件和球员统计。</div>
+            <div id="matchDetail" hidden>
+              <div class="scoreboard">
+                <div id="homeTeamBlock" class="team-block"></div>
+                <div class="official-score"><span>官方比分</span><strong id="officialScore">- : -</strong><small id="matchMeta"></small></div>
+                <div id="awayTeamBlock" class="team-block away"></div>
+              </div>
+
+              <div class="prediction-box">
+                <div><h3>我的竞猜</h3><p>预测保存在当前浏览器</p></div>
+                <div class="prediction-inputs"><input id="predictionHome" type="number" min="0" max="20" aria-label="主队预测进球" /><strong>:</strong><input id="predictionAway" type="number" min="0" max="20" aria-label="客队预测进球" /><button id="savePrediction" type="button">保存竞猜</button></div>
+                <strong id="predictionResult" class="prediction-result">尚未竞猜</strong>
+              </div>
+
+              <div class="detail-grid">
+                <article><h3>球队关键数据</h3><div id="teamComparison" class="comparison-list"></div></article>
+                <article><h3>比赛事件</h3><div id="eventList" class="event-list"></div></article>
+              </div>
+
+              <div class="lineup-grid">
+                <article><h3 id="homeLineupTitle">主队阵容</h3><div id="homeLineup" class="lineup-list"></div></article>
+                <article><h3 id="awayLineupTitle">客队阵容</h3><div id="awayLineup" class="lineup-list"></div></article>
+              </div>
+
+              <div class="player-table-wrap">
+                <div class="section-heading"><h3>球员统计</h3><span id="playerCountBadge" class="badge">0 名</span></div>
+                <div class="table-scroll">
+                  <table class="player-table">
+                    <thead><tr><th>球员</th><th>队</th><th>首发</th><th>分钟</th><th>进球</th><th>传球</th><th>成功</th><th>距离 km</th><th>最高速度</th><th>xG</th></tr></thead>
+                    <tbody id="playerStatsBody"></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <div id="drawerBackdrop" class="drawer-backdrop" hidden></div>
+    <aside id="teachingLabDrawer" class="teaching-drawer" aria-label="Vibe Coding 实验室" aria-hidden="true">
+      <header class="drawer-header">
+        <div><p class="section-kicker">VIBE CODING LAB</p><h2>任务</h2></div>
+        <button id="closeTeachingLab" class="icon-button light" type="button" aria-label="关闭实验室">×</button>
+      </header>
+      <div class="drawer-body">
+        <div class="drawer-toolbar">
+          <div id="taskControls" class="task-controls"></div>
+          <button id="exportPack" class="outline-button" type="button">导出任务</button>
+        </div>
+        <section class="task-path-panel">
+          <div id="taskMeta" class="task-meta"></div>
+          <div class="task-mission"><p id="taskMissionKicker">CURRENT MISSION</p><h3 id="taskMissionTitle">任务</h3><span id="taskMissionGoal"></span></div>
+          <div id="taskPath" class="task-path"></div>
+          <div class="task-support">
+            <article><h3>卡住时</h3><p id="taskHint"></p></article>
+            <article><h3>完成条件</h3><div id="taskCompletion"></div></article>
+            <article><h3>下一步挑战</h3><p id="taskChallenge"></p></article>
+          </div>
+        </section>
+        <div class="task-board">
+          <article><h3>任务卡片</h3><div id="taskCard" class="task-card"></div></article>
+          <article><div class="task-article-head"><h3>GLM Coding Plan</h3><button type="button" data-copy-target="planPrompt">复制</button></div><pre id="planPrompt"></pre></article>
+          <article><div class="task-article-head"><h3>opencode Execute</h3><button type="button" data-copy-target="executePrompt">复制</button></div><pre id="executePrompt"></pre></article>
+          <article><h3>验证清单</h3><div id="verifyList" class="verify-list"></div></article>
+          <article class="wide"><div class="task-article-head"><h3>Debug Prompt</h3><button type="button" data-copy-target="debugPrompt">复制</button></div><label class="field"><span>失败现象</span><input id="failureInput" type="text" placeholder="例如：官网超时后页面没有读取旧缓存" /></label><pre id="debugPrompt"></pre><span id="copyStatus" class="copy-status" aria-live="polite"></span></article>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>

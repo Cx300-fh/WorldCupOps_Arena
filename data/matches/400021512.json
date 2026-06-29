@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021512",
+    "ifesId": "151688",
+    "syncedAt": "2026-06-29T13:05:31.266Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021512",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289287",
+    "date": "2026-07-01T16:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43942",
+      "name": "England",
+      "code": "ENG",
+      "country": "ENG",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "20014",
+      "name": "Congo DR",
+      "code": "COD",
+      "country": "COD",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151688"
+  }
+}
