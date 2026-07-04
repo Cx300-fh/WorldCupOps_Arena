@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021533",
+    "ifesId": "151696",
+    "syncedAt": "2026-07-04T02:29:05.761Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021533",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289288",
+    "date": "2026-07-04T21:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43928",
+      "name": "Paraguay",
+      "code": "PAR",
+      "country": "PAR",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43946",
+      "name": "France",
+      "code": "FRA",
+      "country": "FRA",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151696"
+  }
+}

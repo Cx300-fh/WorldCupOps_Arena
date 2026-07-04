@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021532",
+    "ifesId": "151698",
+    "syncedAt": "2026-07-04T02:29:16.741Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021532",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289288",
+    "date": "2026-07-05T20:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43924",
+      "name": "Brazil",
+      "code": "BRA",
+      "country": "BRA",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43961",
+      "name": "Norway",
+      "code": "NOR",
+      "country": "NOR",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151698"
+  }
+}

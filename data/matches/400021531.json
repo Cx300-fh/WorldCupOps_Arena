@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "matchId": "400021531",
+    "ifesId": "151697",
+    "syncedAt": "2026-07-04T02:29:05.718Z",
+    "source": "FIFA official public JSON"
+  },
+  "data": {
+    "id": "400021531",
+    "competitionId": "17",
+    "seasonId": "285023",
+    "stageId": "289288",
+    "date": "2026-07-06T00:00:00Z",
+    "status": "scheduled",
+    "home": {
+      "id": "43911",
+      "name": "Mexico",
+      "code": "MEX",
+      "country": "MEX",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "away": {
+      "id": "43942",
+      "name": "England",
+      "code": "ENG",
+      "country": "ENG",
+      "score": null,
+      "tactics": "",
+      "players": []
+    },
+    "events": [],
+    "teamStats": {
+      "home": {},
+      "away": {}
+    },
+    "ifesId": "151697"
+  }
+}

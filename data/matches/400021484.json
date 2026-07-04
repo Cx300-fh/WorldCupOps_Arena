@@ -2,7 +2,7 @@
   "meta": {
     "matchId": "400021484",
     "ifesId": "151653",
-    "syncedAt": "2026-06-29T13:05:54.660Z",
+    "syncedAt": "2026-07-04T02:28:58.997Z",
     "source": "FIFA official public JSON"
   },
   "data": {
@@ -1713,7 +1713,7 @@
         "teamId": "43969",
         "minute": "76'",
         "type": "Substitution",
-        "description": "Nico WILLIAMS (in) comes off the bench to replace Mikel OYARZABAL (out) (Spain)",
+        "description": "Ferran TORRES (in) comes off the bench to replace Mikel OYARZABAL (out) (Spain)",
         "homeGoals": 0,
         "awayGoals": 1
       },
@@ -1722,7 +1722,7 @@
         "teamId": "43969",
         "minute": "76'",
         "type": "Substitution",
-        "description": "Ferran TORRES (in) comes off the bench to replace Lamine YAMAL (out) (Spain)",
+        "description": "Nico WILLIAMS (in) comes off the bench to replace Lamine YAMAL (out) (Spain)",
         "homeGoals": 0,
         "awayGoals": 1
       },

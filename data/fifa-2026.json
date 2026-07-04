@@ -2,15 +2,15 @@
   "meta": {
     "seasonId": "285023",
     "competitionId": "17",
-    "syncedAt": "2026-06-29T14:39:38.370Z",
+    "syncedAt": "2026-07-04T02:28:02.371Z",
     "source": "FIFA official public JSON",
     "sourceUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
     "matchCount": 104,
     "groupCount": 12,
     "teamCount": 48,
-    "completedCount": 73,
-    "liveCount": 0,
-    "scheduledCount": 31
+    "completedCount": 87,
+    "liveCount": 1,
+    "scheduledCount": 16
   },
   "teams": [
     {
@@ -614,7 +614,7 @@
           "position": 4,
           "team": {
             "id": "43972",
-            "name": "Türkiye",
+            "name": "Turkey",
             "code": "TUR",
             "country": "TUR"
           },
@@ -3780,7 +3780,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-06-29T17:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 76,
       "home": {
         "id": "43924",
@@ -3795,14 +3795,14 @@
         "country": "JPN"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 1,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "attendance": null,
+      "attendance": 68777,
       "ifesId": "151681"
     },
     {
@@ -3814,7 +3814,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-06-29T20:30:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 74,
       "home": {
         "id": "43948",
@@ -3829,14 +3829,14 @@
         "country": "PAR"
       },
       "score": {
-        "home": null,
-        "away": null,
-        "homePenalties": null,
-        "awayPenalties": null
+        "home": 1,
+        "away": 1,
+        "homePenalties": 3,
+        "awayPenalties": 4
       },
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "attendance": null,
+      "attendance": 63945,
       "ifesId": "151682"
     },
     {
@@ -3848,7 +3848,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-06-30T01:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 75,
       "home": {
         "id": "43960",
@@ -3863,14 +3863,14 @@
         "country": "MAR"
       },
       "score": {
-        "home": null,
-        "away": null,
-        "homePenalties": null,
-        "awayPenalties": null
+        "home": 1,
+        "away": 1,
+        "homePenalties": 2,
+        "awayPenalties": 3
       },
       "stadium": "Monterrey Stadium",
       "city": "Monterrey",
-      "attendance": null,
+      "attendance": 51243,
       "ifesId": "151680"
     },
     {
@@ -3882,7 +3882,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-06-30T17:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 78,
       "home": {
         "id": "43854",
@@ -3897,14 +3897,14 @@
         "country": "NOR"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 2,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Dallas Stadium",
       "city": "Dallas",
-      "attendance": null,
+      "attendance": 69665,
       "ifesId": "151684"
     },
     {
@@ -3916,7 +3916,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-06-30T21:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 77,
       "home": {
         "id": "43946",
@@ -3931,14 +3931,14 @@
         "country": "SWE"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 3,
+        "away": 0,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
-      "attendance": null,
+      "attendance": 80663,
       "ifesId": "151685"
     },
     {
@@ -3949,8 +3949,8 @@
       "groupId": null,
       "stage": "Round of 32",
       "group": "",
-      "date": "2026-07-01T01:00:00Z",
-      "status": "scheduled",
+      "date": "2026-07-01T02:00:00Z",
+      "status": "completed",
       "matchNumber": 79,
       "home": {
         "id": "43911",
@@ -3965,14 +3965,14 @@
         "country": "ECU"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 0,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Mexico City Stadium",
       "city": "Mexico City",
-      "attendance": null,
+      "attendance": 80824,
       "ifesId": "151683"
     },
     {
@@ -3984,7 +3984,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-01T16:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 80,
       "home": {
         "id": "43942",
@@ -3999,14 +3999,14 @@
         "country": "COD"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 1,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
-      "attendance": null,
+      "attendance": 68239,
       "ifesId": "151688"
     },
     {
@@ -4018,7 +4018,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-01T20:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 82,
       "home": {
         "id": "43935",
@@ -4033,14 +4033,14 @@
         "country": "SEN"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 3,
+        "away": 2,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Seattle Stadium",
       "city": "Seattle",
-      "attendance": null,
+      "attendance": 66925,
       "ifesId": "151686"
     },
     {
@@ -4052,7 +4052,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-02T00:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 81,
       "home": {
         "id": "43921",
@@ -4067,14 +4067,14 @@
         "country": "BIH"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 0,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
-      "attendance": null,
+      "attendance": 68827,
       "ifesId": "151687"
     },
     {
@@ -4086,7 +4086,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-02T19:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 84,
       "home": {
         "id": "43969",
@@ -4101,14 +4101,14 @@
         "country": "AUT"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 3,
+        "away": 0,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "attendance": null,
+      "attendance": 70492,
       "ifesId": "151690"
     },
     {
@@ -4120,7 +4120,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-02T23:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 83,
       "home": {
         "id": "43963",
@@ -4135,14 +4135,14 @@
         "country": "CRO"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 1,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Toronto Stadium",
       "city": "Toronto",
-      "attendance": null,
+      "attendance": 43036,
       "ifesId": "151691"
     },
     {
@@ -4154,7 +4154,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-03T03:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 85,
       "home": {
         "id": "43971",
@@ -4169,14 +4169,14 @@
         "country": "ALG"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 0,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
-      "attendance": null,
+      "attendance": 52497,
       "ifesId": "151689"
     },
     {
@@ -4188,7 +4188,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-03T18:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 88,
       "home": {
         "id": "43976",
@@ -4203,14 +4203,14 @@
         "country": "EGY"
       },
       "score": {
-        "home": null,
-        "away": null,
-        "homePenalties": null,
-        "awayPenalties": null
+        "home": 1,
+        "away": 1,
+        "homePenalties": 2,
+        "awayPenalties": 4
       },
       "stadium": "Dallas Stadium",
       "city": "Dallas",
-      "attendance": null,
+      "attendance": 70244,
       "ifesId": "151692"
     },
     {
@@ -4222,7 +4222,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-03T22:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 86,
       "home": {
         "id": "43922",
@@ -4237,14 +4237,14 @@
         "country": "CPV"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 3,
+        "away": 2,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Miami Stadium",
       "city": "Miami",
-      "attendance": null,
+      "attendance": 64478,
       "ifesId": "151694"
     },
     {
@@ -4256,7 +4256,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-04T01:30:00Z",
-      "status": "scheduled",
+      "status": "live",
       "matchNumber": 87,
       "home": {
         "id": "43926",
@@ -4271,8 +4271,8 @@
         "country": "GHA"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalties": null,
         "awayPenalties": null
       },
@@ -4299,10 +4299,10 @@
         "country": "CAN"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43872",
+        "name": "Morocco",
+        "code": "MAR",
+        "country": "MAR"
       },
       "score": {
         "home": null,
@@ -4327,16 +4327,16 @@
       "status": "scheduled",
       "matchNumber": 89,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43928",
+        "name": "Paraguay",
+        "code": "PAR",
+        "country": "PAR"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43946",
+        "name": "France",
+        "code": "FRA",
+        "country": "FRA"
       },
       "score": {
         "home": null,
@@ -4361,16 +4361,16 @@
       "status": "scheduled",
       "matchNumber": 91,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43924",
+        "name": "Brazil",
+        "code": "BRA",
+        "country": "BRA"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43961",
+        "name": "Norway",
+        "code": "NOR",
+        "country": "NOR"
       },
       "score": {
         "home": null,
@@ -4395,16 +4395,16 @@
       "status": "scheduled",
       "matchNumber": 92,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43911",
+        "name": "Mexico",
+        "code": "MEX",
+        "country": "MEX"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43942",
+        "name": "England",
+        "code": "ENG",
+        "country": "ENG"
       },
       "score": {
         "home": null,
@@ -4429,16 +4429,16 @@
       "status": "scheduled",
       "matchNumber": 93,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43963",
+        "name": "Portugal",
+        "code": "POR",
+        "country": "POR"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43969",
+        "name": "Spain",
+        "code": "ESP",
+        "country": "ESP"
       },
       "score": {
         "home": null,
@@ -4463,16 +4463,16 @@
       "status": "scheduled",
       "matchNumber": 94,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43921",
+        "name": "USA",
+        "code": "USA",
+        "country": "USA"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43935",
+        "name": "Belgium",
+        "code": "BEL",
+        "country": "BEL"
       },
       "score": {
         "home": null,
@@ -4497,16 +4497,16 @@
       "status": "scheduled",
       "matchNumber": 95,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43922",
+        "name": "Argentina",
+        "code": "ARG",
+        "country": "ARG"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43855",
+        "name": "Egypt",
+        "code": "EGY",
+        "country": "EGY"
       },
       "score": {
         "home": null,
@@ -4531,10 +4531,10 @@
       "status": "scheduled",
       "matchNumber": 96,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43971",
+        "name": "Switzerland",
+        "code": "SUI",
+        "country": "SUI"
       },
       "away": {
         "id": "",
