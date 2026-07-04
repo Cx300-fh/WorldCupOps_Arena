@@ -19,7 +19,7 @@
 ## 启动
 
 ```bash
-cd /Users/basti/Desktop/2026夏/硬设/WorldCupOps_Arena
+cd WorldCupOps_Arena
 npm start
 ```
 
