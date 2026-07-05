@@ -23,7 +23,7 @@ cd WorldCupOps_Arena
 npm start
 ```
 
-默认打开 `http://127.0.0.1:5175`。指定 5176 端口：
+默认打开 `http://127.0.0.1:5175`.如果产生端口冲突可以指定其他端口，比如指定 5176 端口：
 
 ```bash
 PORT=5176 npm start
