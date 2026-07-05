@@ -1,0 +1,5 @@
+[
+  {"id":"final","stage":"FINAL","date":"2026-07-19T19:00:00Z","venue":"New York New Jersey Stadium","home":{"name":"Argentina","code":"ARG"},"away":{"name":"France","code":"FRA"},"score":{"home":2,"away":1}},
+  {"id":"semi","stage":"SEMI-FINAL","date":"2026-07-15T19:00:00Z","venue":"Atlanta Stadium","home":{"name":"Brazil","code":"BRA"},"away":{"name":"England","code":"ENG"},"score":{"home":null,"away":null}},
+  {"id":"group","stage":"GROUP C","date":"2026-06-22T22:00:00Z","venue":"Mexico City Stadium","home":{"name":"Mexico","code":"MEX"},"away":{"name":"South Korea","code":"KOR"},"score":{"home":3,"away":2}}
+]

@@ -1,0 +1,1 @@
+(function(root,factory){const api=factory();if(typeof module==="object"&&module.exports)module.exports=api;else root.MatchPoster=api;})(typeof globalThis!=="undefined"?globalThis:this,function(){function teamColor(){throw new Error("Implement teamColor");}function buildPosterModel(){throw new Error("Implement buildPosterModel");}return{teamColor,buildPosterModel};});

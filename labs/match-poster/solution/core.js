@@ -1,0 +1,5 @@
+(function(root,factory){const api=factory();if(typeof module==="object"&&module.exports)module.exports=api;else root.MatchPoster=api;})(typeof globalThis!=="undefined"?globalThis:this,function(){
+const PALETTE=["#00a86b","#e63946","#3167ff","#f6c945","#ef6c35","#7b4dff","#00a6b2","#d81b60"];
+function teamColor(name){let hash=0;for(const char of String(name))hash=(hash*31+char.charCodeAt(0))>>>0;return PALETTE[hash%PALETTE.length];}
+function buildPosterModel(match,mode="pre"){if(!match)throw new Error("Match is required");const post=mode==="post";const date=new Date(match.date);const score=match.score||{};return{matchNumber:match.matchNumber||match.id,stage:match.stage||"WORLD CUP",home:match.home,away:match.away,modeLabel:post?"FULL TIME":"MATCHDAY",centerText:post?`${score.home??"-"} : ${score.away??"-"}`:"KICKOFF",dateText:new Intl.DateTimeFormat("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).format(date),detailText:match.stadium||match.venue||match.city||"World Cup Stadium",homeColor:teamColor(match.home.name),awayColor:teamColor(match.away.name)};}
+return{teamColor,buildPosterModel};});

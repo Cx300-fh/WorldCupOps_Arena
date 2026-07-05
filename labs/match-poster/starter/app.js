@@ -1,0 +1,1 @@
+const select=document.querySelector("#match"),status=document.querySelector("#status");fetch("../../../data/fifa-2026.json").then(r=>r.json()).then(data=>{select.innerHTML=data.matches.map(m=>`<option>#${m.matchNumber} · ${m.home.name} vs ${m.away.name}</option>`).join("");try{MatchPoster.buildPosterModel(data.matches[0],"pre")}catch(e){status.textContent=`等待实现：${e.message}`}});
