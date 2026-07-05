@@ -16,6 +16,7 @@ const {
   formatHttpError,
   moveSpotlight,
   selectSpotlightWindow,
+  latestCompletedMatch,
 } = require("../src/worldcup-core.js");
 
 function test(name, fn) {
@@ -121,6 +122,29 @@ test("buildVibeTaskPack creates task card, prompts, checks, and debug script", (
   assert.ok(pack.taskPath.startFiles.length > 0);
   assert.ok(pack.taskPath.hint);
   assert.ok(pack.taskPath.nextChallenge);
+});
+
+test("cache fallback prompts target the isolated lab and its verification command", () => {
+  const pack = buildVibeTaskPack("cache-fallback");
+
+  assert.match(pack.planPrompt, /labs\/cache-fallback\/workspace\/cache-policy\.js/);
+  assert.match(pack.planPrompt, /npm run lab:test/);
+  assert.match(pack.executePrompt, /只修改 labs\/cache-fallback\/workspace\/cache-policy\.js/);
+  assert.match(pack.executePrompt, /npm run lab:test/);
+});
+
+test("development labs expose isolated workspaces, test commands, and previews", () => {
+  const expected = {
+    "player-duel": ["labs/player-duel/workspace/core.js", "npm run lab:duel:test"],
+    "match-poster": ["labs/match-poster/workspace/core.js", "npm run lab:poster:test"],
+    "knockout-path": ["labs/knockout-path/workspace/core.js", "npm run lab:bracket:test"],
+  };
+  Object.entries(expected).forEach(([id, [file, command]]) => {
+    const pack = buildVibeTaskPack(id);
+    assert.match(pack.planPrompt, new RegExp(file.replaceAll("/", "\\/")));
+    assert.ok(pack.executePrompt.includes(command));
+    assert.match(pack.taskPath.previewPath, /^\/labs\//);
+  });
 });
 
 test("filterMatches combines group, team, stage, and status filters", () => {
@@ -230,4 +254,13 @@ test("selectSpotlightWindow keeps the schedule edges in chronological order", ()
   assert.deepEqual(selectSpotlightWindow(matches, "m1", 5).map((match) => match.id), ["m1", "m2", "m3", "m4", "m5"]);
   assert.deepEqual(selectSpotlightWindow(matches, "m4", 5).map((match) => match.id), ["m2", "m3", "m4", "m5", "m6"]);
   assert.deepEqual(selectSpotlightWindow(matches, "m7", 5).map((match) => match.id), ["m3", "m4", "m5", "m6", "m7"]);
+});
+
+test("latestCompletedMatch selects the most recently finished fixture", () => {
+  const matches = [
+    { id: "first", status: "completed", date: "2026-06-12T00:00:00Z" },
+    { id: "latest", status: "completed", date: "2026-07-04T23:00:00Z" },
+    { id: "future", status: "scheduled", date: "2026-07-19T00:00:00Z" },
+  ];
+  assert.equal(latestCompletedMatch(matches).id, "latest");
 });

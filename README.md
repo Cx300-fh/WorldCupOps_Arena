@@ -1,8 +1,9 @@
 # WorldCupOps Arena
 
-以 2026 美加墨世界杯为主题的 Vibe Coding 实践系统。项目通过本地 Node 服务同步 FIFA 官方网页实际使用的公开 JSON 接口，展示完整赛程、12 组积分榜、最佳第三名、单场阵容、比赛事件和球员统计。
+本作是以 FIFA 2026 美加墨世界杯为主题的实践系统。
+项目通过本地 Node 服务同步 FIFA 官方网页实际使用的公开 JSON 接口，展示完整赛程、小组赛组积分榜、单场阵容、比赛事件和球员统计等可视化内容
 
-## 当前数据能力
+## 数据与内容
 
 - 104 场完整赛程
 - 48 支球队、12 个小组
@@ -18,12 +19,14 @@
 
 ## 启动
 
+进入克隆或解压后的项目目录：
+
 ```bash
 cd WorldCupOps_Arena
 npm start
 ```
 
-默认打开 `http://127.0.0.1:5175`.如果产生端口冲突可以指定其他端口，比如指定 5176 端口：
+默认打开 `http://127.0.0.1:5175`.端口被占用时可以指定其他端口，例如指定 5176 端口：
 
 ```bash
 PORT=5176 npm start
@@ -96,6 +99,9 @@ data/matches/<match-id>.json
 - 修复小组排名 Tie-breaker
 - 修复预测后图表同步
 - 增加竞猜输入校验
+- 开发球星对决台
+- 开发比赛海报生成器
+- 开发淘汰赛路径模拟器
 
 ## Skill
 
@@ -119,6 +125,35 @@ npm test
 ```
 
 测试覆盖赛事算法、三段控球状态、FIFA 响应标准化、缓存降级、单场球员关联、本地服务 API 和关键 UI 结构。
+
+## 现场实验包
+
+缓存降级实验完全离线运行，不依赖 FIFA 接口：
+
+```bash
+npm run lab:reset
+npm run lab:test
+```
+
+修复目标仅为 `labs/cache-fallback/workspace/cache-policy.js`。参考答案可通过 `npm run lab:solution` 恢复，完整流程见 `labs/cache-fallback/README.md`。
+
+另外提供三个离线功能开发项目：
+
+| 项目 | 重置 | 测试 | 参考答案 |
+|---|---|---|---|
+| 球星对决台 | `npm run lab:duel:reset` | `npm run lab:duel:test` | `npm run lab:duel:solution` |
+| 比赛海报生成器 | `npm run lab:poster:reset` | `npm run lab:poster:test` | `npm run lab:poster:solution` |
+| 淘汰赛路径模拟器 | `npm run lab:bracket:reset` | `npm run lab:bracket:test` | `npm run lab:bracket:solution` |
+
+运行 `npm start` 后，可以从网页实验室打开各自的 workspace 预览。所有 fixtures 均保存在项目内，不需要访问 FIFA 接口。
+
+球星对决和淘汰赛实验的数据可以从当前官方缓存重新生成：
+
+```bash
+npm run lab:data:build
+```
+
+球员统计由 `data/matches/` 中的官方单场缓存按 `IdPlayer` 汇总，32 强对阵来自 `data/fifa-2026.json` 的 `Round of 32` 赛程。球员头像和国旗保存在各实验的本地 `assets/` 目录。
 
 ## 图像与动效
 

@@ -28,6 +28,13 @@ function createAppServer({ projectRoot, client, autoRefresh = true }) {
     timer.unref();
   }
 
+  async function readTournamentWithoutBlocking() {
+    const cached = await client.peekTournament();
+    if (!cached) return runRefresh(false);
+    if (cached.stale) runRefresh(false).catch(() => {});
+    return cached.stale && lastError ? { ...cached, error: lastError } : cached;
+  }
+
   const server = http.createServer(async (request, response) => {
     try {
       const url = new URL(request.url, "http://localhost");
@@ -40,7 +47,7 @@ function createAppServer({ projectRoot, client, autoRefresh = true }) {
       }
 
       if (url.pathname === "/api/tournament" && request.method === "GET") {
-        const result = await runRefresh(false);
+        const result = await readTournamentWithoutBlocking();
         return json(response, 200, result);
       }
 
@@ -51,7 +58,7 @@ function createAppServer({ projectRoot, client, autoRefresh = true }) {
 
       const matchRoute = url.pathname.match(/^\/api\/match\/([^/]+)$/);
       if (matchRoute && request.method === "GET") {
-        const tournament = await runRefresh(false);
+        const tournament = await readTournamentWithoutBlocking();
         const match = tournament.data.matches.find((item) => item.id === decodeURIComponent(matchRoute[1]));
         if (!match) return json(response, 404, { error: "Match not found" });
         const result = await client.getMatchDetail(match, { force: url.searchParams.get("refresh") === "1" });
@@ -72,7 +79,8 @@ function createAppServer({ projectRoot, client, autoRefresh = true }) {
 }
 
 async function serveStatic(projectRoot, pathname, response) {
-  const decoded = decodeURIComponent(pathname === "/" ? "/index.html" : pathname);
+  const requested = pathname === "/" || pathname.endsWith("/") ? `${pathname}index.html` : pathname;
+  const decoded = decodeURIComponent(requested);
   const candidate = path.resolve(projectRoot, `.${decoded}`);
   const root = path.resolve(projectRoot);
   if (candidate !== root && !candidate.startsWith(`${root}${path.sep}`)) {

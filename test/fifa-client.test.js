@@ -130,6 +130,60 @@ test("loadTournament falls back to stale cache when FIFA refresh fails", async (
   assert.equal(result.data.matches[0].id, "cached");
 });
 
+test("peekTournament returns a stale cache without making a network request", async () => {
+  const paths = await makePaths();
+  const data = { meta: { syncedAt: new Date(0).toISOString() }, matches: [{ id: "cached" }], groups: [] };
+  await fs.writeFile(paths.cacheFile, JSON.stringify(data));
+  let calls = 0;
+  const client = createFifaClient({
+    ...paths,
+    now: () => 10_000_000,
+    refreshMs: 1000,
+    fetchImpl: async () => {
+      calls += 1;
+      return response({});
+    },
+  });
+
+  const result = await client.peekTournament();
+  assert.equal(result.source, "stale-cache");
+  assert.equal(result.stale, true);
+  assert.equal(result.data.matches[0].id, "cached");
+  assert.equal(calls, 0);
+});
+
+test("concurrent forced loads share one official refresh", async () => {
+  const paths = await makePaths();
+  let calls = 0;
+  const fetchImpl = async (url) => {
+    calls += 1;
+    await new Promise((resolve) => setTimeout(resolve, 20));
+    return response(url.includes("standing") ? standings : calendar);
+  };
+  const client = createFifaClient({ ...paths, fetchImpl, now: () => 1_000_000 });
+
+  await Promise.all([
+    client.loadTournament({ force: true }),
+    client.loadTournament({ force: true }),
+  ]);
+
+  assert.equal(calls, 2);
+});
+
+test("network errors include their nested DNS cause", async () => {
+  const paths = await makePaths();
+  const dnsError = Object.assign(new Error("lookup failed"), { code: "ENOTFOUND" });
+  const fetchError = new TypeError("fetch failed", { cause: dnsError });
+  const client = createFifaClient({
+    ...paths,
+    fetchImpl: async () => {
+      throw fetchError;
+    },
+  });
+
+  await assert.rejects(() => client.loadTournament({ force: true }), /ENOTFOUND/);
+});
+
 test("getMatchDetail fetches live, timeline, and FDH stats then caches them", async () => {
   const paths = await makePaths();
   const live = {

@@ -20,6 +20,7 @@ function createFifaClient(options = {}) {
   const cacheFile = options.cacheFile;
   const matchCacheDir = options.matchCacheDir;
   const requestTimeoutMs = Number(options.requestTimeoutMs || 20_000);
+  let tournamentRefresh = null;
 
   if (typeof fetchImpl !== "function") throw new Error("A fetch implementation is required");
   if (!cacheFile || !matchCacheDir) throw new Error("cacheFile and matchCacheDir are required");
@@ -37,12 +38,14 @@ function createFifaClient(options = {}) {
       });
       if (!response.ok) throw new Error(`FIFA request failed (${response.status}) for ${url}`);
       return await response.json();
+    } catch (error) {
+      throw formatRequestError(error, url, requestTimeoutMs);
     } finally {
       clearTimeout(timer);
     }
   }
 
-  async function refreshTournament() {
+  async function performTournamentRefresh() {
     const [calendarRaw, standingsRaw] = await Promise.all([
       fetchJson(CALENDAR_URL),
       fetchJson(STANDINGS_URL),
@@ -70,6 +73,25 @@ function createFifaClient(options = {}) {
     };
     await writeJsonAtomic(cacheFile, data);
     return data;
+  }
+
+  function refreshTournament() {
+    if (tournamentRefresh) return tournamentRefresh;
+    tournamentRefresh = performTournamentRefresh().finally(() => {
+      tournamentRefresh = null;
+    });
+    return tournamentRefresh;
+  }
+
+  async function peekTournament() {
+    const cached = await readJson(cacheFile);
+    if (!cached) return null;
+    const fresh = isFresh(cached.meta && cached.meta.syncedAt, refreshMs, now());
+    return {
+      data: cached,
+      source: fresh ? "cache" : "stale-cache",
+      stale: !fresh,
+    };
   }
 
   async function loadTournament({ force = false } = {}) {
@@ -142,10 +164,23 @@ function createFifaClient(options = {}) {
 
   return {
     refreshTournament,
+    peekTournament,
     loadTournament,
     getMatchDetail,
     constants: { CALENDAR_URL, STANDINGS_URL, refreshMs },
   };
+}
+
+function formatRequestError(error, url, timeoutMs) {
+  const hostname = new URL(url).hostname;
+  if (error && error.name === "AbortError") {
+    return new Error(`FIFA request timed out after ${timeoutMs}ms (${hostname})`, { cause: error });
+  }
+  const cause = error && error.cause;
+  const code = cause && cause.code;
+  const detail = code || (cause && cause.message) || (error && error.message) || "unknown error";
+  if (String(error && error.message).startsWith("FIFA request failed (")) return error;
+  return new Error(`FIFA request failed (${hostname}): ${detail}`, { cause: error });
 }
 
 function uniqueTeams(matches) {
@@ -187,4 +222,5 @@ module.exports = {
   writeJsonAtomic,
   CALENDAR_URL,
   STANDINGS_URL,
+  formatRequestError,
 };

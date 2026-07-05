@@ -99,17 +99,44 @@
     },
     "cache-fallback": {
       title: "实现 1 小时缓存降级",
-      goal: "实现自动刷新、手动刷新、原子写缓存和失败回退。",
+      goal: "实现 1 小时 TTL、原子写缓存和官方请求失败回退。",
       inputs: "官方请求结果、缓存文件时间、刷新间隔。",
-      outputs: "live、cache、stale-cache 三种可观察状态。",
-      constraints: "失败请求不得删除或覆盖有效缓存。",
+      outputs: "official、cache、stale-cache 三种可观察状态。",
+      constraints: "只修改 labs/cache-fallback/workspace/cache-policy.js；失败请求不得删除或覆盖有效缓存。",
       acceptance: [
         "缓存未超过 1 小时时不重复请求。",
-        "手动刷新可以跳过 TTL。",
-        "官网不可用时继续返回旧缓存。",
-        "页面明确标注当前数据状态。",
+        "缓存过期且刷新成功时原子替换旧文件。",
+        "官网不可用时返回旧缓存且不覆盖文件。",
+        "失败结果包含 stale-cache 状态和错误原因。",
       ],
       seedBug: "官方接口超时后服务返回 500，课堂页面完全不可用。",
+    },
+    "player-duel": {
+      title: "开发球星对决台",
+      goal: "从本地球员数据构建双人选择、六项指标对比和领先状态可视化。",
+      inputs: "四名球员的离线统计数据。",
+      outputs: "可切换球员的对决页面、归一化指标和自动领先标记。",
+      constraints: "只修改 labs/player-duel/workspace/；不得修改测试或 fixtures。",
+      acceptance: ["同一球员不能重复选择。", "所有归一化值保持在 0–100。", "缺失数据不会显示 NaN。", "切换球员后六项数据同步更新。"],
+      seedBug: "starter 只提供页面外壳，核心比较函数尚未实现。",
+    },
+    "match-poster": {
+      title: "开发比赛海报生成器",
+      goal: "把比赛数据转换为赛前或赛后海报，并支持导出固定尺寸 PNG。",
+      inputs: "离线比赛、球队、比分、时间和球场数据。",
+      outputs: "Canvas 海报预览、模式切换和 PNG 下载。",
+      constraints: "只修改 labs/match-poster/workspace/；不得访问网络图片。",
+      acceptance: ["切换比赛后所有字段同步更新。", "赛前显示开球信息，赛后显示比分。", "长队名保持在画布范围内。", "导出图片尺寸为 1080 × 1350。"],
+      seedBug: "starter 只提供海报画布，视图模型、绘制和导出尚未实现。",
+    },
+    "knockout-path": {
+      title: "开发淘汰赛路径模拟器",
+      goal: "实现 32 强至决赛的胜者选择、自动晋级、路径失效清理和本地保存。",
+      inputs: "32 支球队和五轮淘汰赛结构。",
+      outputs: "可交互对阵表、冠军路径、持久化与重置。",
+      constraints: "只修改 labs/knockout-path/workspace/；不得改写球队 fixtures。",
+      acceptance: ["每场最多选择一支胜者。", "胜者进入正确的下一场。", "改选后清除失效的后续路径。", "刷新恢复有效方案，重置清除全部选择。"],
+      seedBug: "starter 提供球队和页面外壳，对阵创建与晋级传播尚未实现。",
     },
     "player-stat-join": {
       title: "关联阵容与球员统计",
@@ -162,11 +189,36 @@
     },
     "cache-fallback": {
       difficulty: "进阶",
-      duration: "30 分钟",
-      startFiles: ["server/fifa-client.js", "server/server.js", "test/fifa-client.test.js"],
-      observe: "分别记录缓存命中、强制刷新和官网超时三种情况下的 source 与 stale 状态。",
+      duration: "20 分钟",
+      startFiles: ["labs/cache-fallback/workspace/cache-policy.js", "labs/cache-fallback/test/cache-policy.test.js"],
+      verificationCommand: "npm run lab:test",
+      observe: "运行 npm run lab:reset 和 npm run lab:test，记录官网超时场景的失败信息。",
       hint: "成功响应写入临时文件后再原子替换；失败路径只能读取旧缓存，不能覆盖它。",
       nextChallenge: "加入指数退避和最近一次失败原因，让连续故障也保持可观察。",
+    },
+    "player-duel": {
+      mode: "development", difficulty: "进阶", duration: "35 分钟",
+      startFiles: ["labs/player-duel/workspace/core.js", "labs/player-duel/workspace/app.js", "labs/player-duel/test/player-duel.test.js"],
+      verificationCommand: "npm run lab:duel:test", previewPath: "/labs/player-duel/workspace/",
+      observe: "运行 npm run lab:duel:reset 与测试，打开预览并确认 starter 只显示等待实现。",
+      hint: "先把数值清洗和归一化写成纯函数，再让渲染层只消费 comparison 模型。",
+      nextChallenge: "增加位置筛选、多场平均数据和球员表现雷达图。",
+    },
+    "match-poster": {
+      mode: "development", difficulty: "进阶", duration: "40 分钟",
+      startFiles: ["labs/match-poster/workspace/core.js", "labs/match-poster/workspace/app.js", "labs/match-poster/test/match-poster.test.js"],
+      verificationCommand: "npm run lab:poster:test", previewPath: "/labs/match-poster/workspace/",
+      observe: "运行 npm run lab:poster:reset，打开预览并记录画布尚未生成内容的状态。",
+      hint: "先生成与 Canvas 无关的 poster model，再集中处理文字缩放、绘制与导出。",
+      nextChallenge: "加入多套模板、球员图片和社交媒体横版尺寸。",
+    },
+    "knockout-path": {
+      mode: "development", difficulty: "挑战", duration: "55 分钟",
+      startFiles: ["labs/knockout-path/workspace/core.js", "labs/knockout-path/workspace/app.js", "labs/knockout-path/test/knockout-path.test.js"],
+      verificationCommand: "npm run lab:bracket:test", previewPath: "/labs/knockout-path/workspace/",
+      observe: "运行 npm run lab:bracket:reset，确认 32 支球队已加载但对阵结构尚未生成。",
+      hint: "每场胜者只写入下一轮一个固定 slot；改选前先递归清理所有依赖该结果的下游状态。",
+      nextChallenge: "加入预测概率、方案对比和完整冠军路径导出。",
     },
     "player-stat-join": {
       difficulty: "挑战",
@@ -335,6 +387,8 @@
       `输入：${taskCard.input}`,
       `输出：${taskCard.output}`,
       `约束：${taskCard.constraints}`,
+      `起始文件：${guide.startFiles.join("、")}`,
+      `验证命令：${guide.verificationCommand || "npm test"}`,
       `验收标准：\n${taskCard.acceptance.map((item, index) => `${index + 1}. ${item}`).join("\n")}`,
       "",
       "请输出：需要阅读的文件、3-5 步最小实现步骤、每一步验证方式、主要风险、需要确认的问题。",
@@ -345,7 +399,9 @@
       "",
       `任务：${taskCard.title}`,
       `目标：${taskCard.goal}`,
-      "执行要求：只修改相关文件；保持最小改动；运行验证命令；汇总修改点、验证结果和未解决问题。",
+      `约束：${taskCard.constraints}`,
+      `验证命令：${guide.verificationCommand || "npm test"}`,
+      "执行要求：保持最小改动；运行验证命令；汇总修改点、验证结果和未解决问题。",
     ].join("\n");
 
     const debugPrompt = [
@@ -357,9 +413,16 @@
       "请判断最可能原因，给出最小修复方案，并说明修复后重新运行哪些验证。",
     ].join("\n");
 
+    const developmentSteps = [
+      { title: "检查起始状态", detail: guide.observe, action: "运行 Reset" },
+      { title: "设计功能", detail: `阅读 ${guide.startFiles.join("、")}，拆分数据模型、状态和界面。`, action: "复制 Plan" },
+      { title: "实现最小版本", detail: task.constraints, action: "复制 Execute" },
+      { title: "运行验收", detail: `执行 ${guide.verificationCommand || "npm test"} 并检查浏览器预览。`, action: "提交证据" },
+      { title: "继续扩展", detail: guide.nextChallenge, action: "记录方案" },
+    ];
     const taskPath = {
       ...guide,
-      steps: [
+      steps: guide.mode === "development" ? developmentSteps : [
         { title: "观察现象", detail: guide.observe, action: "记录输入" },
         { title: "生成计划", detail: `先阅读 ${guide.startFiles.join("、")}，列出最小改动和验证命令。`, action: "复制 Plan" },
         { title: "执行最小改动", detail: task.constraints, action: "复制 Execute" },
@@ -442,6 +505,13 @@
     const otherScheduled = (matches || []).filter((match) => match.status === "scheduled" && new Date(match.date).getTime() < time).sort((a, b) => new Date(b.date) - new Date(a.date));
     const completed = (matches || []).filter((match) => match.status === "completed").sort((a, b) => new Date(b.date) - new Date(a.date));
     return [...live, ...upcoming, ...otherScheduled, ...completed].slice(0, limit);
+  }
+
+  function latestCompletedMatch(matches) {
+    return (matches || [])
+      .filter((match) => match.status === "completed")
+      .slice()
+      .sort((a, b) => new Date(b.date) - new Date(a.date))[0] || null;
   }
 
   function moveSpotlight(matches, currentId, direction) {
@@ -539,6 +609,7 @@
     groupMatchesByDate,
     groupMatchesByStage,
     selectOverviewMatches,
+    latestCompletedMatch,
     moveSpotlight,
     selectSpotlightWindow,
     formatHttpError,

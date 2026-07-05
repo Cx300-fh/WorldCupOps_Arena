@@ -83,6 +83,8 @@ test("task lab exposes a guided path with persistent progress", () => {
   assert.match(app, /function renderTaskPath\(/);
   assert.match(app, /worldcupops-task-progress/);
   assert.match(app, /Ops\.splitPossessionControl\(/);
+  assert.match(html, /id="taskPreview"/);
+  assert.match(app, /taskPath\.previewPath/);
 });
 
 test("disclosures keep their accessible expanded state in sync", () => {

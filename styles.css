@@ -359,6 +359,8 @@ select, input { width: 100%; min-width: 0; border: 1px solid var(--line); border
 .task-path-panel { margin-bottom: 12px; border: 1px solid var(--line); border-radius: 8px; background: #eef5f1; padding: 12px; }
 .task-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 9px; }
 .task-meta span { border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--muted); padding: 4px 7px; font-size: 8px; }
+.task-preview { display: inline-flex; margin-bottom: 12px; text-decoration: none; }
+.task-preview[hidden] { display: none; }
 .task-mission { border-radius: 8px; background: linear-gradient(135deg, #0b684b, #173e55); color: #fff; padding: 14px; }
 .task-mission p { margin-bottom: 4px; color: #a9e6cf; font-size: 8px; font-weight: 900; letter-spacing: .12em; }
 .task-mission h3 { margin-bottom: 5px; font-size: 18px; }

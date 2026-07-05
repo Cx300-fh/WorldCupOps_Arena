@@ -40,7 +40,7 @@ const refs = {
   teamComparison: $("#teamComparison"), eventList: $("#eventList"), homeLineupTitle: $("#homeLineupTitle"), awayLineupTitle: $("#awayLineupTitle"),
   homeLineup: $("#homeLineup"), awayLineup: $("#awayLineup"), playerStatsBody: $("#playerStatsBody"), playerCountBadge: $("#playerCountBadge"),
   taskControls: $("#taskControls"), taskCard: $("#taskCard"), planPrompt: $("#planPrompt"), executePrompt: $("#executePrompt"),
-  taskMeta: $("#taskMeta"), taskPath: $("#taskPath"), taskMissionKicker: $("#taskMissionKicker"), taskMissionTitle: $("#taskMissionTitle"), taskMissionGoal: $("#taskMissionGoal"),
+  taskMeta: $("#taskMeta"), taskPath: $("#taskPath"), taskMissionKicker: $("#taskMissionKicker"), taskMissionTitle: $("#taskMissionTitle"), taskMissionGoal: $("#taskMissionGoal"), taskPreview: $("#taskPreview"),
   taskHint: $("#taskHint"), taskCompletion: $("#taskCompletion"), taskChallenge: $("#taskChallenge"), copyStatus: $("#copyStatus"),
   verifyList: $("#verifyList"), failureInput: $("#failureInput"), debugPrompt: $("#debugPrompt"),
   openTeachingLab: $("#openTeachingLab"), closeTeachingLab: $("#closeTeachingLab"), teachingLabDrawer: $("#teachingLabDrawer"), drawerBackdrop: $("#drawerBackdrop"),
@@ -87,13 +87,12 @@ function initializeSelection() {
   }
 
   if (!matches.some((match) => match.id === state.selectedMatchId)) {
-    const completed = matches.find((match) => match.status === "completed");
+    const completed = Ops.latestCompletedMatch(matches);
     state.selectedMatchId = completed?.id || matches[0]?.id || "";
   }
   if (!matches.some((match) => match.id === state.spotlightMatchId)) {
-    const localPortraitMatch = matches.find((match) => match.id === "400021443");
-    const completed = matches.find((match) => match.status === "completed");
-    state.spotlightMatchId = localPortraitMatch?.id || completed?.id || matches[0]?.id || "";
+    const completed = Ops.latestCompletedMatch(matches);
+    state.spotlightMatchId = completed?.id || matches[0]?.id || "";
   }
 
   const dateSections = Ops.groupMatchesByDate(matches);
@@ -496,7 +495,7 @@ function renderTaskControls() {
 function renderTaskPack() {
   const pack = Ops.buildVibeTaskPack(state.taskId);
   renderTaskPath(pack);
-  refs.taskCard.innerHTML = [taskRow("目标", pack.taskCard.goal), taskRow("输入", pack.taskCard.input), taskRow("输出", pack.taskCard.output), taskRow("约束", pack.taskCard.constraints), taskRow("预设 bug", pack.taskCard.seedBug)].join("");
+  refs.taskCard.innerHTML = [taskRow("目标", pack.taskCard.goal), taskRow("输入", pack.taskCard.input), taskRow("输出", pack.taskCard.output), taskRow("约束", pack.taskCard.constraints), taskRow(pack.taskPath.mode === "development" ? "起始状态" : "预设 bug", pack.taskCard.seedBug)].join("");
   refs.planPrompt.textContent = pack.planPrompt;
   refs.executePrompt.textContent = pack.executePrompt;
   const progress = progressForTask();
@@ -507,6 +506,8 @@ function renderTaskPack() {
 function renderTaskPath(pack) {
   const progress = progressForTask();
   refs.taskMeta.innerHTML = [`难度 · ${pack.taskPath.difficulty}`, `预计 · ${pack.taskPath.duration}`, `起始文件 · ${pack.taskPath.startFiles.join(" / ")}`].map((item) => `<span>${escapeHtml(item)}</span>`).join("");
+  refs.taskPreview.hidden = !pack.taskPath.previewPath;
+  refs.taskPreview.href = pack.taskPath.previewPath || "#";
   refs.taskMissionKicker.textContent = state.taskId.replaceAll("-", " ").toUpperCase();
   refs.taskMissionTitle.textContent = pack.taskCard.title;
   refs.taskMissionGoal.textContent = pack.taskCard.goal;
