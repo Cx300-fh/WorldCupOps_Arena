@@ -7,6 +7,19 @@
     "start": "node server/server.js",
     "sync": "node server/sync.js",
     "test": "node test/worldcup-core.test.js && node test/fifa-normalize.test.js && node test/fifa-client.test.js && node test/server.test.js && node test/ui-structure.test.js",
+    "lab:reset": "node labs/cache-fallback/scripts/reset.js",
+    "lab:test": "node labs/cache-fallback/test/cache-policy.test.js",
+    "lab:solution": "node labs/cache-fallback/scripts/apply-solution.js",
+    "lab:duel:reset": "node labs/scripts/set-state.js player-duel starter",
+    "lab:duel:test": "node labs/player-duel/test/player-duel.test.js",
+    "lab:duel:solution": "node labs/scripts/set-state.js player-duel solution",
+    "lab:poster:reset": "node labs/scripts/set-state.js match-poster starter",
+    "lab:poster:test": "node labs/match-poster/test/match-poster.test.js",
+    "lab:poster:solution": "node labs/scripts/set-state.js match-poster solution",
+    "lab:bracket:reset": "node labs/scripts/set-state.js knockout-path starter",
+    "lab:bracket:test": "node labs/knockout-path/test/knockout-path.test.js",
+    "lab:bracket:solution": "node labs/scripts/set-state.js knockout-path solution",
+    "lab:data:build": "node labs/scripts/build-real-fixtures.js",
     "serve:snapshot": "python3 -m http.server 5175"
   }
 }

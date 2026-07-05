@@ -2,15 +2,15 @@
   "meta": {
     "seasonId": "285023",
     "competitionId": "17",
-    "syncedAt": "2026-07-04T02:28:02.371Z",
+    "syncedAt": "2026-07-05T08:20:15.450Z",
     "source": "FIFA official public JSON",
     "sourceUrl": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
     "matchCount": 104,
     "groupCount": 12,
     "teamCount": 48,
-    "completedCount": 87,
-    "liveCount": 1,
-    "scheduledCount": 16
+    "completedCount": 90,
+    "liveCount": 0,
+    "scheduledCount": 14
   },
   "teams": [
     {
@@ -4256,7 +4256,7 @@
       "stage": "Round of 32",
       "group": "",
       "date": "2026-07-04T01:30:00Z",
-      "status": "live",
+      "status": "completed",
       "matchNumber": 87,
       "home": {
         "id": "43926",
@@ -4278,7 +4278,7 @@
       },
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
-      "attendance": null,
+      "attendance": 69045,
       "ifesId": "151693"
     },
     {
@@ -4290,7 +4290,7 @@
       "stage": "Round of 16",
       "group": "",
       "date": "2026-07-04T17:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 90,
       "home": {
         "id": "43899",
@@ -4305,14 +4305,14 @@
         "country": "MAR"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 3,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "attendance": null,
+      "attendance": 68777,
       "ifesId": "151695"
     },
     {
@@ -4324,7 +4324,7 @@
       "stage": "Round of 16",
       "group": "",
       "date": "2026-07-04T21:00:00Z",
-      "status": "scheduled",
+      "status": "completed",
       "matchNumber": 89,
       "home": {
         "id": "43928",
@@ -4339,14 +4339,14 @@
         "country": "FRA"
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalties": null,
         "awayPenalties": null
       },
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
-      "attendance": null,
+      "attendance": 68324,
       "ifesId": "151696"
     },
     {
@@ -4537,10 +4537,10 @@
         "country": "SUI"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43926",
+        "name": "Colombia",
+        "code": "COL",
+        "country": "COL"
       },
       "score": {
         "home": null,
@@ -4565,16 +4565,16 @@
       "status": "scheduled",
       "matchNumber": 97,
       "home": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43946",
+        "name": "France",
+        "code": "FRA",
+        "country": "FRA"
       },
       "away": {
-        "id": "",
-        "name": "Unknown",
-        "code": "",
-        "country": ""
+        "id": "43872",
+        "name": "Morocco",
+        "code": "MAR",
+        "country": "MAR"
       },
       "score": {
         "home": null,
