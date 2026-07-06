@@ -1,0 +1,434 @@
+[
+  {
+    "id": "389867",
+    "name": "Kylian Mbappe",
+    "team": "France",
+    "country": "FRA",
+    "number": 10,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/66f6087d-9563-4644-8f10-5614ef6e1e51/MBAPPE-Kylian_389867",
+    "picture": "../assets/players/389867.png",
+    "stats": {
+      "minutes": 482,
+      "goals": 7,
+      "assists": 2,
+      "passes": 153,
+      "distance": 42.71,
+      "speed": 37.61,
+      "xg": 3.87
+    }
+  },
+  {
+    "id": "229397",
+    "name": "Lionel Messi",
+    "team": "Argentina",
+    "country": "ARG",
+    "number": 10,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/19823774-fac0-485a-8a8f-572e7324c6c2/MESSI-Lionel_229397",
+    "picture": "../assets/players/229397.png",
+    "stats": {
+      "minutes": 361.6,
+      "goals": 7,
+      "assists": 0,
+      "passes": 147,
+      "distance": 26.1,
+      "speed": 29.68,
+      "xg": 3.09
+    }
+  },
+  {
+    "id": "398680",
+    "name": "Ousmane Dembele",
+    "team": "France",
+    "country": "FRA",
+    "number": 7,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/e6eee717-fd8c-4f8f-a7e0-c4f978fe327f/DEMBELE-Ousmane_398680",
+    "picture": "../assets/players/398680.png",
+    "stats": {
+      "minutes": 391,
+      "goals": 4,
+      "assists": 2,
+      "passes": 200,
+      "distance": 40.23,
+      "speed": 29.29,
+      "xg": 1.14
+    }
+  },
+  {
+    "id": "369419",
+    "name": "Harry Kane",
+    "team": "England",
+    "country": "ENG",
+    "number": 9,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/5ad83fe6-1139-4f92-a97c-669052eb1755/KANE-Harry_369419",
+    "picture": "../assets/players/369419.png",
+    "stats": {
+      "minutes": 394.3,
+      "goals": 5,
+      "assists": 0,
+      "passes": 59,
+      "distance": 43.44,
+      "speed": 32.36,
+      "xg": 2.65
+    }
+  },
+  {
+    "id": "405742",
+    "name": "Vinicius Junior",
+    "team": "Brazil",
+    "country": "BRA",
+    "number": 7,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/1c2722c3-a70b-49d8-bdb4-77109161f533/VINICIUS-JUNIOR_405742",
+    "picture": "../assets/players/405742.png",
+    "stats": {
+      "minutes": 398.3,
+      "goals": 4,
+      "assists": 1,
+      "passes": 120,
+      "distance": 37.92,
+      "speed": 34.14,
+      "xg": 3.07
+    }
+  },
+  {
+    "id": "484851",
+    "name": "Deniz Undav",
+    "team": "Germany",
+    "country": "GER",
+    "number": 26,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/3ec30e08-a7eb-4781-aea8-0e9ff86ebef1/UNDAV-Deniz_484851",
+    "picture": "../assets/players/484851.png",
+    "stats": {
+      "minutes": 174.7,
+      "goals": 3,
+      "assists": 2,
+      "passes": 31,
+      "distance": 17.4,
+      "speed": 28.92,
+      "xg": 1.43
+    }
+  },
+  {
+    "id": "419652",
+    "name": "Erling Haaland",
+    "team": "Norway",
+    "country": "NOR",
+    "number": 9,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/ee269811-9f84-401f-99b8-e953a2704ebb/HAALAND-Erling_419652",
+    "picture": "../assets/players/419652.png",
+    "stats": {
+      "minutes": 207.4,
+      "goals": 4,
+      "assists": 0,
+      "passes": 16,
+      "distance": 19.82,
+      "speed": 36.52,
+      "xg": 2.43
+    }
+  },
+  {
+    "id": "401889",
+    "name": "Ismaila Sarr",
+    "team": "Senegal",
+    "country": "SEN",
+    "number": 18,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/695226c6-92b8-4aa6-995e-dcdd2d08eb96/SARR-Ismaila_401889",
+    "picture": "../assets/players/401889.png",
+    "stats": {
+      "minutes": 274.6,
+      "goals": 3,
+      "assists": 1,
+      "passes": 50,
+      "distance": 30.8,
+      "speed": 34.47,
+      "xg": 2.79
+    }
+  },
+  {
+    "id": "448152",
+    "name": "Cody Gakpo",
+    "team": "Netherlands",
+    "country": "NED",
+    "number": 11,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/bbb5637f-0587-4ddd-8a82-604c0d921bb3/GAKPO-Cody_448152",
+    "picture": "../assets/players/448152.png",
+    "stats": {
+      "minutes": 394.1,
+      "goals": 3,
+      "assists": 1,
+      "passes": 100,
+      "distance": 39.22,
+      "speed": 33.16,
+      "xg": 1.35
+    }
+  },
+  {
+    "id": "502727",
+    "name": "Johan Manzambi",
+    "team": "Switzerland",
+    "country": "SUI",
+    "number": 9,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/a0cb9413-32ea-4b8f-9801-55474cb12b77/MANZAMBI-Johan_502727",
+    "picture": "../assets/players/502727.png",
+    "stats": {
+      "minutes": 146.4,
+      "goals": 3,
+      "assists": 1,
+      "passes": 39,
+      "distance": 16.01,
+      "speed": 33.9,
+      "xg": 0.63
+    }
+  },
+  {
+    "id": "485655",
+    "name": "Michael Olise",
+    "team": "France",
+    "country": "FRA",
+    "number": 11,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/979cc206-e23b-4b21-8d40-843607ba8964/OLISE-Michael_485655",
+    "picture": "../assets/players/485655.png",
+    "stats": {
+      "minutes": 437.7,
+      "goals": 0,
+      "assists": 5,
+      "passes": 275,
+      "distance": 52.52,
+      "speed": 34.65,
+      "xg": 1.6
+    }
+  },
+  {
+    "id": "201200",
+    "name": "Cristiano Ronaldo",
+    "team": "Portugal",
+    "country": "POR",
+    "number": 7,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/7b63f223-fda2-4d56-b218-f143f0abd2d8/CRISTIANO-RONALDO_201200",
+    "picture": "../assets/players/201200.png",
+    "stats": {
+      "minutes": 385.9,
+      "goals": 3,
+      "assists": 0,
+      "passes": 87,
+      "distance": 32.45,
+      "speed": 31.62,
+      "xg": 2.49
+    }
+  },
+  {
+    "id": "441257",
+    "name": "Jonathan David",
+    "team": "Canada",
+    "country": "CAN",
+    "number": 10,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/97ad628a-b97d-4657-ac41-f2a667c534e6/DAVID-Jonathan_441257",
+    "picture": "../assets/players/441257.png",
+    "stats": {
+      "minutes": 370.5,
+      "goals": 3,
+      "assists": 0,
+      "passes": 79,
+      "distance": 40.82,
+      "speed": 31.75,
+      "xg": 2.5
+    }
+  },
+  {
+    "id": "411367",
+    "name": "Kai Havertz",
+    "team": "Germany",
+    "country": "GER",
+    "number": 7,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/1fdd4d11-97d1-4392-b345-5a5eecc54839/HAVERTZ-Kai_411367",
+    "picture": "../assets/players/411367.png",
+    "stats": {
+      "minutes": 393,
+      "goals": 3,
+      "assists": 0,
+      "passes": 117,
+      "distance": 44.89,
+      "speed": 32.93,
+      "xg": 2
+    }
+  },
+  {
+    "id": "441316",
+    "name": "Yoane Wissa",
+    "team": "Congo DR",
+    "country": "COD",
+    "number": 20,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/df278077-1306-4bc3-99d3-0842d69fdec3/WISSA-Yoane_441316",
+    "picture": "../assets/players/441316.png",
+    "stats": {
+      "minutes": 409.7,
+      "goals": 3,
+      "assists": 0,
+      "passes": 69,
+      "distance": 41.49,
+      "speed": 33.41,
+      "xg": 1.79
+    }
+  },
+  {
+    "id": "489518",
+    "name": "Crysencio Summerville",
+    "team": "Netherlands",
+    "country": "NED",
+    "number": 24,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/86e9f724-fc5f-4969-92e3-ac658dafacdd/SUMMERVILLE-Crysencio_489518",
+    "picture": "../assets/players/489518.png",
+    "stats": {
+      "minutes": 282.1,
+      "goals": 2,
+      "assists": 2,
+      "passes": 67,
+      "distance": 28.09,
+      "speed": 34.72,
+      "xg": 0.16
+    }
+  },
+  {
+    "id": "466624",
+    "name": "Folarin Balogun",
+    "team": "USA",
+    "country": "USA",
+    "number": 20,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/bd47db79-966e-4eba-a8da-f6ba01148f27/BALOGUN-Folarin_466624",
+    "picture": "../assets/players/466624.png",
+    "stats": {
+      "minutes": 250.3,
+      "goals": 3,
+      "assists": 0,
+      "passes": 34,
+      "distance": 24.75,
+      "speed": 33.94,
+      "xg": 1.92
+    }
+  },
+  {
+    "id": "448598",
+    "name": "Ismael Saibari",
+    "team": "Morocco",
+    "country": "MAR",
+    "number": 11,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/250526c6-26b5-4425-8a21-231c7952e34d/SAIBARI-Ismael_448598",
+    "picture": "../assets/players/448598.png",
+    "stats": {
+      "minutes": 390.4,
+      "goals": 3,
+      "assists": 0,
+      "passes": 94,
+      "distance": 42.83,
+      "speed": 33.67,
+      "xg": 1.01
+    }
+  },
+  {
+    "id": "424051",
+    "name": "Brian Brobbey",
+    "team": "Netherlands",
+    "country": "NED",
+    "number": 19,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/15246275-ff97-404c-bac3-ce793d98c744/BROBBEY-Brian_424051",
+    "picture": "../assets/players/424051.png",
+    "stats": {
+      "minutes": 245.1,
+      "goals": 3,
+      "assists": 0,
+      "passes": 21,
+      "distance": 22.53,
+      "speed": 33.6,
+      "xg": 1.4
+    }
+  },
+  {
+    "id": "430609",
+    "name": "Matheus Cunha",
+    "team": "Brazil",
+    "country": "BRA",
+    "number": 9,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/9189da72-e1b5-4e7b-800d-7eeca119f08c/MATHEUS-CUNHA_430609",
+    "picture": "../assets/players/430609.png",
+    "stats": {
+      "minutes": 260.4,
+      "goals": 3,
+      "assists": 0,
+      "passes": 81,
+      "distance": 26.59,
+      "speed": 31.94,
+      "xg": 1.15
+    }
+  },
+  {
+    "id": "405454",
+    "name": "Elijah Just",
+    "team": "New Zealand",
+    "country": "NZL",
+    "number": 11,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/fe32736f-5d5f-4870-8db3-5b4560835f53/JUST-Elijah_405454",
+    "picture": "../assets/players/405454.png",
+    "stats": {
+      "minutes": 291.5,
+      "goals": 3,
+      "assists": 0,
+      "passes": 99,
+      "distance": 33.44,
+      "speed": 31.6,
+      "xg": 0.86
+    }
+  },
+  {
+    "id": "430150",
+    "name": "Alexander Isak",
+    "team": "Sweden",
+    "country": "SWE",
+    "number": 9,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/c6ffe63b-aefd-43b8-bd9d-3c6e31a8f418/ISAK-Alexander_430150",
+    "picture": "../assets/players/430150.png",
+    "stats": {
+      "minutes": 389.3,
+      "goals": 1,
+      "assists": 3,
+      "passes": 81,
+      "distance": 35.65,
+      "speed": 32.61,
+      "xg": 0.68
+    }
+  },
+  {
+    "id": "430751",
+    "name": "Mikel Oyarzabal",
+    "team": "Spain",
+    "country": "ESP",
+    "number": 21,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/2f46ed20-b155-4201-8b97-badbc3619450/OYARZABAL-Mikel_430751",
+    "picture": "../assets/players/430751.png",
+    "stats": {
+      "minutes": 232.7,
+      "goals": 2,
+      "assists": 1,
+      "passes": 40,
+      "distance": 22.21,
+      "speed": 31.52,
+      "xg": 1.7
+    }
+  },
+  {
+    "id": "484860",
+    "name": "Bradley Barcola",
+    "team": "France",
+    "country": "FRA",
+    "number": 12,
+    "pictureUrl": "https://digitalhub.fifa.com/transform/10e80ef7-3aa9-4c07-9639-e8bc04828d31/BARCOLA-Bradley_484860",
+    "picture": "../assets/players/484860.png",
+    "stats": {
+      "minutes": 297.7,
+      "goals": 2,
+      "assists": 1,
+      "passes": 85,
+      "distance": 29.56,
+      "speed": 36.32,
+      "xg": 1.28
+    }
+  }
+]
